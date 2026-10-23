@@ -1,15 +1,2127 @@
 {
-  "generated_at": "23/10/2026 16:34:18",
-  "timestamp": 1792766058433,
+  "generated_at": "23/10/2026 17:17:09",
+  "timestamp": 1792768629766,
   "moodle_url": "https://moodle.univ-lille.fr/course/view.php?id=28230&sectionid=348486",
   "google_sheet_url": "https://docs.google.com/spreadsheets/d/1OiFbOQRlOZBHyy7uIvDQYC797M0kDNb29iw6YIEuSlA/export?format=xlsx",
   "exam_date": "2026-12-08",
-  "days_to_exam": 46,
+  "days_to_exam": 45,
   "stats": {
-    "active_errors_count": 44,
-    "total_pending_count": 13,
-    "average_score": "16.97"
+    "total_livrets_count": 83,
+    "total_livrets_done": 59,
+    "total_livrets_remaining": 24,
+    "total_colles_count": 8,
+    "total_cb_count": 8,
+    "total_qcm_sessions": 64,
+    "average_colles_score": "16.99",
+    "average_cb_score": "12.63",
+    "average_qcm_score": "17.14",
+    "active_errors_count": 44
   },
+  "evaluations": [
+    {
+      "id": 1,
+      "matiere": "Biologie cellulaire / Histologie",
+      "intitule": "Colle 2 Biologie cellulaire-Histologie",
+      "date": "22/10/2026 13:02",
+      "note": "18.13 / 20",
+      "note_num": 18.13,
+      "type": "Colle",
+      "icon": "fa-microscope"
+    },
+    {
+      "id": 2,
+      "matiere": "Pharmacologie",
+      "intitule": "Colle n°1 : Pharmacologie",
+      "date": "15/10/2026 13:32",
+      "note": "15.20 / 20",
+      "note_num": 15.2,
+      "type": "Colle",
+      "icon": "fa-capsules"
+    },
+    {
+      "id": 3,
+      "matiere": "SSH",
+      "intitule": "Colle n°1 : SSH",
+      "date": "15/10/2026 13:00",
+      "note": "17.87 / 20",
+      "note_num": 17.87,
+      "type": "Colle",
+      "icon": "fa-book-open"
+    },
+    {
+      "id": 4,
+      "matiere": "Anatomie générale",
+      "intitule": "Colle 1 Anatomie : Notes schémas",
+      "date": "09/10/2026 11:04",
+      "note": "19.00 / 20",
+      "note_num": 19.0,
+      "type": "Colle",
+      "icon": "fa-bone"
+    },
+    {
+      "id": 5,
+      "matiere": "Anatomie générale",
+      "intitule": "Colle 1 : Anatomie",
+      "date": "08/10/2026 13:03",
+      "note": "17.20 / 20",
+      "note_num": 17.2,
+      "type": "Colle",
+      "icon": "fa-bone"
+    },
+    {
+      "id": 6,
+      "matiere": "Biophysique",
+      "intitule": "Colle 1 : Biophysique",
+      "date": "01/10/2026 13:35",
+      "note": "16.00 / 20",
+      "note_num": 16.0,
+      "type": "Colle",
+      "icon": "fa-wave-square"
+    },
+    {
+      "id": 7,
+      "matiere": "Chimie",
+      "intitule": "Colle 1 de chimie",
+      "date": "01/10/2026 12:58",
+      "note": "16.00 / 20",
+      "note_num": 16.0,
+      "type": "Colle",
+      "icon": "fa-flask"
+    },
+    {
+      "id": 8,
+      "matiere": "Biologie cellulaire / Histologie",
+      "intitule": "Colle 1 de Biologie cellulaire-Histologie",
+      "date": "24/09/2026 13:04",
+      "note": "16.53 / 20",
+      "note_num": 16.53,
+      "type": "Colle",
+      "icon": "fa-microscope"
+    },
+    {
+      "id": 9,
+      "matiere": "Anatomie générale",
+      "intitule": "CB Tremplin : Anatomie - Note schéma",
+      "date": "31/08/2026 07:57",
+      "note": "2.00 / 20",
+      "note_num": 2.0,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 10,
+      "matiere": "Biophysique",
+      "intitule": "CB Tremplin : Biophysique",
+      "date": "28/08/2026 12:30",
+      "note": "9.60 / 20",
+      "note_num": 9.6,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 11,
+      "matiere": "Biologie cellulaire / Histologie",
+      "intitule": "CB Tremplin : Biologie cellulaire",
+      "date": "28/08/2026 11:44",
+      "note": "16.27 / 20",
+      "note_num": 16.27,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 12,
+      "matiere": "Chimie",
+      "intitule": "CB Tremplin : Chimie",
+      "date": "28/08/2026 11:20",
+      "note": "11.69 / 20",
+      "note_num": 11.69,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 13,
+      "matiere": "Pharmacologie",
+      "intitule": "CB Tremplin : Pharmacologie",
+      "date": "28/08/2026 10:33",
+      "note": "14.29 / 20",
+      "note_num": 14.29,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 14,
+      "matiere": "Biochimie",
+      "intitule": "CB Tremplin : Biochimie",
+      "date": "28/08/2026 10:08",
+      "note": "16.00 / 20",
+      "note_num": 16.0,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 15,
+      "matiere": "SSH",
+      "intitule": "CB Tremplin : SSH",
+      "date": "28/08/2026 09:32",
+      "note": "17.23 / 20",
+      "note_num": 17.23,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    },
+    {
+      "id": 16,
+      "matiere": "Anatomie générale",
+      "intitule": "CB Tremplin : Anatomie",
+      "date": "28/08/2026 09:10",
+      "note": "14.00 / 20",
+      "note_num": 14.0,
+      "type": "Concours Blanc",
+      "icon": "fa-award"
+    }
+  ],
+  "qcmSessions": [
+    {
+      "id": 1,
+      "attempt": 1,
+      "title": "Session livret 18 : Tissu squelettique",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 13,
+      "date": "22/10/2026 10:09",
+      "note": "18.15 / 20",
+      "noteNum": 18.15
+    },
+    {
+      "id": 2,
+      "attempt": 2,
+      "title": "Session livret 17 : Tissu nerveux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "22/10/2026 09:51",
+      "note": "19.64 / 20",
+      "noteNum": 19.64
+    },
+    {
+      "id": 3,
+      "attempt": 2,
+      "title": "Session livret 15 : Tissu conjonctif",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "22/10/2026 09:35",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 4,
+      "attempt": 1,
+      "title": "Session etude du soir 1",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 12,
+      "date": "21/10/2026 16:40",
+      "note": "18.33 / 20",
+      "noteNum": 18.33
+    },
+    {
+      "id": 5,
+      "attempt": 1,
+      "title": "Session livret 6 : Appareil cardiovasculaire 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "21/10/2026 15:49",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 6,
+      "attempt": 1,
+      "title": "Session livret 12 : Méthodes en histologie 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 17,
+      "date": "21/10/2026 15:27",
+      "note": "17.41 / 20",
+      "noteNum": 17.41
+    },
+    {
+      "id": 7,
+      "attempt": 1,
+      "title": "Session livret 10 : Tissus épithéliaux 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 10,
+      "date": "21/10/2026 14:58",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 8,
+      "attempt": 2,
+      "title": "Session livret 6 : Cytosquelette 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 14,
+      "date": "21/10/2026 14:40",
+      "note": "18.29 / 20",
+      "noteNum": 18.29
+    },
+    {
+      "id": 9,
+      "attempt": 1,
+      "title": "Session livret 6 : Sémantique (1)",
+      "matiere": "SSH",
+      "questionsCount": 11,
+      "date": "21/10/2026 12:10",
+      "note": "15.27 / 20",
+      "noteNum": 15.27
+    },
+    {
+      "id": 10,
+      "attempt": 1,
+      "title": "Session livret 16 : Trafic intracellulaire 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 6,
+      "date": "20/10/2026 16:22",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 11,
+      "attempt": 1,
+      "title": "Session livret 11 : Trafic intracellulaire 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 4,
+      "date": "20/10/2026 16:08",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 12,
+      "attempt": 3,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 6,
+      "date": "20/10/2026 15:51",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 13,
+      "attempt": 1,
+      "title": "Session livret 03 - (2) : L'eau et les solutions - Partie D - Solutions hydro électrolytique",
+      "matiere": "Biophysique",
+      "questionsCount": 25,
+      "date": "20/10/2026 15:23",
+      "note": "15.20 / 20",
+      "noteNum": 15.2
+    },
+    {
+      "id": 14,
+      "attempt": 1,
+      "title": "Session livret 02 - (2) : L'eau et les solutions - Partie B - L'eau",
+      "matiere": "Biophysique",
+      "questionsCount": 10,
+      "date": "20/10/2026 14:18",
+      "note": "12.00 / 20",
+      "noteNum": 12.0
+    },
+    {
+      "id": 15,
+      "attempt": 1,
+      "title": "Session livret 01 - (2) : L'eau et les solutions - Partie A -  Les états de la matière",
+      "matiere": "Biophysique",
+      "questionsCount": 14,
+      "date": "20/10/2026 13:30",
+      "note": "12.86 / 20",
+      "noteNum": 12.86
+    },
+    {
+      "id": 16,
+      "attempt": 1,
+      "title": "Session livret n°3 : Pharmacodynamie (2)",
+      "matiere": "Pharmacologie",
+      "questionsCount": 7,
+      "date": "20/10/2026 12:13",
+      "note": "17.71 / 20",
+      "noteNum": 17.71
+    },
+    {
+      "id": 17,
+      "attempt": 1,
+      "title": "Session livret n°2 : Pharmacodynamie (1)",
+      "matiere": "Pharmacologie",
+      "questionsCount": 19,
+      "date": "20/10/2026 11:47",
+      "note": "15.37 / 20",
+      "noteNum": 15.37
+    },
+    {
+      "id": 18,
+      "attempt": 2,
+      "title": "Session livret n°1 : Histoire des médicaments",
+      "matiere": "Pharmacologie",
+      "questionsCount": 15,
+      "date": "20/10/2026 11:07",
+      "note": "15.20 / 20",
+      "noteNum": 15.2
+    },
+    {
+      "id": 19,
+      "attempt": 1,
+      "title": "Session livret 5 : Thorax 2",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "19/10/2026 18:16",
+      "note": "19.20 / 20",
+      "noteNum": 19.2
+    },
+    {
+      "id": 20,
+      "attempt": 1,
+      "title": "Session livret 17 : Tissu nerveux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "19/10/2026 17:39",
+      "note": "16.73 / 20",
+      "noteNum": 16.73
+    },
+    {
+      "id": 21,
+      "attempt": 1,
+      "title": "Session livret 15 : Tissu conjonctif",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "19/10/2026 17:21",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 22,
+      "attempt": 1,
+      "title": "Session livret 5 : Orbitales moléculaires",
+      "matiere": "Chimie",
+      "questionsCount": 11,
+      "date": "19/10/2026 12:36",
+      "note": "17.82 / 20",
+      "noteNum": 17.82
+    },
+    {
+      "id": 23,
+      "attempt": 1,
+      "title": "Session livret 4 : Liaisons chimiques et méthode VSEPR",
+      "matiere": "Chimie",
+      "questionsCount": 12,
+      "date": "19/10/2026 12:09",
+      "note": "19.00 / 20",
+      "noteNum": 19.0
+    },
+    {
+      "id": 24,
+      "attempt": 2,
+      "title": "Session livret 3 : Théorie de Lewis, liaisons chimiques",
+      "matiere": "Chimie",
+      "questionsCount": 14,
+      "date": "19/10/2026 11:51",
+      "note": "18.57 / 20",
+      "noteNum": 18.57
+    },
+    {
+      "id": 25,
+      "attempt": 2,
+      "title": "Session livret 2 : Classification périodique",
+      "matiere": "Chimie",
+      "questionsCount": 16,
+      "date": "19/10/2026 11:30",
+      "note": "18.50 / 20",
+      "noteNum": 18.5
+    },
+    {
+      "id": 26,
+      "attempt": 2,
+      "title": "Session livret 1 : Atome, théorie quantique",
+      "matiere": "Chimie",
+      "questionsCount": 18,
+      "date": "19/10/2026 11:10",
+      "note": "18.89 / 20",
+      "noteNum": 18.89
+    },
+    {
+      "id": 27,
+      "attempt": 1,
+      "title": "Session livret 13 : Membranes 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "19/10/2026 10:38",
+      "note": "17.60 / 20",
+      "noteNum": 17.6
+    },
+    {
+      "id": 28,
+      "attempt": 1,
+      "title": "Session livret 8 : Membranes 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "18/10/2026 16:53",
+      "note": "14.91 / 20",
+      "noteNum": 14.91
+    },
+    {
+      "id": 29,
+      "attempt": 1,
+      "title": "Session livret 6 : Cytosquelette 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 14,
+      "date": "18/10/2026 16:26",
+      "note": "17.71 / 20",
+      "noteNum": 17.71
+    },
+    {
+      "id": 30,
+      "attempt": 1,
+      "title": "Session 2 livret 2 : Méthodes en biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 8,
+      "date": "05/10/2026 06:58",
+      "note": "16.50 / 20",
+      "noteNum": 16.5
+    },
+    {
+      "id": 31,
+      "attempt": 1,
+      "title": "Session livret 7 : Tissus épithéliaux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "04/10/2026 08:23",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 32,
+      "attempt": 3,
+      "title": "Session livret 1 : Généralités 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "26/09/2026 21:21",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 33,
+      "attempt": 1,
+      "title": "Session livret 3 : Thorax 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "26/09/2026 19:06",
+      "note": "18.13 / 20",
+      "noteNum": 18.13
+    },
+    {
+      "id": 34,
+      "attempt": 1,
+      "title": "Session annales livret 6 : Cytosquelette 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 4,
+      "date": "23/09/2026 17:25",
+      "note": "19.00 / 20",
+      "noteNum": 19.0
+    },
+    {
+      "id": 35,
+      "attempt": 2,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "23/09/2026 17:21",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 36,
+      "attempt": 2,
+      "title": "Session livret 4 : Cytosquelette 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "23/09/2026 17:10",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 37,
+      "attempt": 2,
+      "title": "Session livret 3 : Méthodes en histologie 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 9,
+      "date": "23/09/2026 16:51",
+      "note": "19.56 / 20",
+      "noteNum": 19.56
+    },
+    {
+      "id": 38,
+      "attempt": 3,
+      "title": "Session 1 livret 2 : Méthodes en biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "23/09/2026 16:38",
+      "note": "19.67 / 20",
+      "noteNum": 19.67
+    },
+    {
+      "id": 39,
+      "attempt": 3,
+      "title": "Session livret 1 : Introduction à la biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "23/09/2026 16:22",
+      "note": "19.47 / 20",
+      "noteNum": 19.47
+    },
+    {
+      "id": 40,
+      "attempt": 1,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "22/09/2026 16:15",
+      "note": "16.80 / 20",
+      "noteNum": 16.8
+    },
+    {
+      "id": 41,
+      "attempt": 1,
+      "title": "Session livret 4 : Cytosquelette 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "21/09/2026 19:01",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 42,
+      "attempt": 1,
+      "title": "Session livret 3 : Méthodes en histologie 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 9,
+      "date": "21/09/2026 18:39",
+      "note": "14.67 / 20",
+      "noteNum": 14.67
+    },
+    {
+      "id": 43,
+      "attempt": 2,
+      "title": "Session livret 2 : Généralités 2",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "20/09/2026 10:06",
+      "note": "19.47 / 20",
+      "noteNum": 19.47
+    },
+    {
+      "id": 44,
+      "attempt": 2,
+      "title": "Session livret 1 : Généralités 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "20/09/2026 09:53",
+      "note": "19.20 / 20",
+      "noteNum": 19.2
+    },
+    {
+      "id": 45,
+      "attempt": 1,
+      "title": "Session livret n°1 : Histoire des médicaments",
+      "matiere": "Pharmacologie",
+      "questionsCount": 15,
+      "date": "19/09/2026 18:16",
+      "note": "10.13 / 20",
+      "noteNum": 10.13
+    },
+    {
+      "id": 46,
+      "attempt": 1,
+      "title": "Session livret 3 : Théorie de Lewis, liaisons chimiques",
+      "matiere": "Chimie",
+      "questionsCount": 9,
+      "date": "19/09/2026 13:41",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 47,
+      "attempt": 1,
+      "title": "Session livret 2 : Classification périodique",
+      "matiere": "Chimie",
+      "questionsCount": 10,
+      "date": "19/09/2026 13:19",
+      "note": "17.60 / 20",
+      "noteNum": 17.6
+    },
+    {
+      "id": 48,
+      "attempt": 1,
+      "title": "Session livret 1 : Atome, théorie quantique",
+      "matiere": "Chimie",
+      "questionsCount": 13,
+      "date": "19/09/2026 13:04",
+      "note": "15.38 / 20",
+      "noteNum": 15.38
+    },
+    {
+      "id": 49,
+      "attempt": 1,
+      "title": "Session annales livret 02 : Les milieux intérieurs - L'eau et les solutions - Partie B - L'eau",
+      "matiere": "Biophysique",
+      "questionsCount": 1,
+      "date": "16/09/2026 14:02",
+      "note": "12.00 / 20",
+      "noteNum": 12.0
+    },
+    {
+      "id": 50,
+      "attempt": 1,
+      "title": "Session annales livret 01 : L'eau et les solutions - A - Les états de la matière",
+      "matiere": "Biophysique",
+      "questionsCount": 2,
+      "date": "16/09/2026 14:00",
+      "note": "10.00 / 20",
+      "noteNum": 10.0
+    },
+    {
+      "id": 51,
+      "attempt": 1,
+      "title": "Session livret 2 : Généralités 2",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "16/09/2026 13:49",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 52,
+      "attempt": 2,
+      "title": "Session livret 1 : Introduction à la biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "14/09/2026 13:10",
+      "note": "17.60 / 20",
+      "noteNum": 17.6
+    },
+    {
+      "id": 53,
+      "attempt": 2,
+      "title": "Session 1 livret 2 : Méthodes en biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "14/09/2026 12:32",
+      "note": "18.33 / 20",
+      "noteNum": 18.33
+    },
+    {
+      "id": 54,
+      "attempt": 1,
+      "title": "Session livret 2: Epistémologie - La médecine est-elle une science ?",
+      "matiere": "SSH",
+      "questionsCount": 6,
+      "date": "12/09/2026 15:57",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 55,
+      "attempt": 1,
+      "title": "Session 1 livret 2 : Méthodes en biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 13,
+      "date": "10/09/2026 16:58",
+      "note": "16.62 / 20",
+      "noteNum": 16.62
+    },
+    {
+      "id": 56,
+      "attempt": 1,
+      "title": "Session livret 1 : Généralités 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "09/09/2026 15:53",
+      "note": "17.07 / 20",
+      "noteNum": 17.07
+    },
+    {
+      "id": 57,
+      "attempt": 1,
+      "title": "Session annales livret 1 : Epistémologie - Définir la santé et la maladie",
+      "matiere": "SSH",
+      "questionsCount": 3,
+      "date": "09/09/2026 12:52",
+      "note": "12.00 / 20",
+      "noteNum": 12.0
+    },
+    {
+      "id": 58,
+      "attempt": 1,
+      "title": "Session livret 1 : Epistémologie - Définir la santé et la maladie",
+      "matiere": "SSH",
+      "questionsCount": 6,
+      "date": "09/09/2026 12:48",
+      "note": "19.33 / 20",
+      "noteNum": 19.33
+    },
+    {
+      "id": 59,
+      "attempt": 1,
+      "title": "Session livret 1 : Introduction à la biologie cellulaire",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 9,
+      "date": "08/09/2026 13:13",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 60,
+      "attempt": 1,
+      "title": "Généré Biologie cellulaire / Histolog...",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 10,
+      "date": "08/09/2026 08:45",
+      "note": "14.40 / 20",
+      "noteNum": 14.4
+    },
+    {
+      "id": 61,
+      "attempt": 1,
+      "title": "Généré Anatomie générale",
+      "matiere": "Anatomie générale",
+      "questionsCount": 10,
+      "date": "29/08/2026 15:08",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 62,
+      "attempt": 1,
+      "title": "Généré Anatomie générale",
+      "matiere": "Anatomie générale",
+      "questionsCount": 10,
+      "date": "29/08/2026 15:06",
+      "note": "19.20 / 20",
+      "noteNum": 19.2
+    },
+    {
+      "id": 63,
+      "attempt": 1,
+      "title": "Généré Biologie cellulaire / Histolog...",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "29/08/2026 14:58",
+      "note": "18.67 / 20",
+      "noteNum": 18.67
+    },
+    {
+      "id": 64,
+      "attempt": 1,
+      "title": "Généré Biochimie",
+      "matiere": "Chimie",
+      "questionsCount": 5,
+      "date": "20/08/2026 09:56",
+      "note": "10.40 / 20",
+      "noteNum": 10.4
+    }
+  ],
+  "syllabus": [
+    {
+      "key": "Bio-cell",
+      "name": "Biologie cellulaire / Histologie",
+      "icon": "fa-microscope",
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isDone": true,
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 17,3 (prop inexacte->0/1)",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isDone": true,
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isDone": true,
+          "lastDate": "13/10/2026",
+          "lastCellSummary": "13/10/2026",
+          "bestQcm": null,
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isDone": true,
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 19,5",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "attempts": 1,
+            "date": "19/10/2026 10:38"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isDone": true,
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 19,5",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isDone": true,
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isDone": true,
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 19,7",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isDone": true,
+          "lastDate": "22/10/2026",
+          "lastCellSummary": "22/10/2026",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isDone": true,
+          "lastDate": "22/10/2026",
+          "lastCellSummary": "22/10/2026",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isDone": true,
+          "lastDate": "08/10/2026",
+          "lastCellSummary": "08/10/2026",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isDone": true,
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": null,
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isDone": true,
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "attempts": 1,
+            "date": "21/10/2026 14:58"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isDone": true,
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isDone": true,
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "attempts": 1,
+            "date": "20/10/2026 16:08"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isDone": true,
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "attempts": 1,
+            "date": "20/10/2026 16:22"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        }
+      ]
+    },
+    {
+      "key": "Chimie",
+      "name": "Chimie Générale & Organique",
+      "icon": "fa-flask",
+      "totalLivrets": 17,
+      "doneCount": 10,
+      "remainingCount": 7,
+      "progressPercent": 59,
+      "remainingPercent": 41,
+      "livretsList": [
+        {
+          "number": 1,
+          "label": "Livret 1 : Atome, théorie quantique",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Classification périodique",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Théorie de Lewis, Liaisons chimiques",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 : Liaison chimique et méthode VSEPR",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 : Orbitales Moléculaires",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Hybridation",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Liaisons faibles",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Thermodynamique",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Alcanes, Cyclanes",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Les alcènes",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Les polyènes",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 : Les arènes",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 : Les oses, Stéréochimie",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Les oses, les alcools, SN1 et SN2",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Les oses, dérivés carbonylés",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Les oses_dérivés carbonylés 2",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Les protides",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        }
+      ]
+    },
+    {
+      "key": "Bio-Physique",
+      "name": "Biophysique",
+      "icon": "fa-wave-square",
+      "totalLivrets": 9,
+      "doneCount": 4,
+      "remainingCount": 5,
+      "progressPercent": 44,
+      "remainingPercent": 56,
+      "livretsList": [
+        {
+          "number": 1,
+          "label": "Livret 01 : L'eau et les solutions - A - Les états de la matière",
+          "isDone": true,
+          "lastDate": "15/09/2026",
+          "lastCellSummary": "15/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 02 : L'eau et les solutions - Partie B - L'eau",
+          "isDone": true,
+          "lastDate": "15/09/2026",
+          "lastCellSummary": "15/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 03 : L'eau et les solutions - Partie C - Propriétés générales des solutions",
+          "isDone": true,
+          "lastDate": "15/09/2026",
+          "lastCellSummary": "15/09/2026 • J7",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 04 : L'eau et les solutions - D - Solutions hydro électrolytiques",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 5,
+          "label": "Livret 05 : Aspects physiques des membranes - Partie 1 & 2.1 (1)",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 9,
+          "label": "Livret 09 : Aspects physiques des membranes - Partie 2.1 (2)",
+          "isDone": true,
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": null,
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 6,
+          "label": "Livret 06 : Réactions acido-basiques - (1) - Définitions & pH des solutions",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 7,
+          "label": "Livret 07 : Réactions acido-basiques - (2) - Dosages acido-basiques",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 8,
+          "label": "Livret 08 : Réactions acido-basiques - (3) - Théorie de Lewis - Equilibres de solubilité",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        }
+      ]
+    },
+    {
+      "key": "Anat",
+      "name": "Anatomie générale",
+      "icon": "fa-bone",
+      "totalLivrets": 15,
+      "doneCount": 13,
+      "remainingCount": 2,
+      "progressPercent": 87,
+      "remainingPercent": 13,
+      "livretsList": [
+        {
+          "number": 6,
+          "label": "Livret 6 Cours : Appareil cardiovasculaire 1",
+          "isDone": true,
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 Schémas : Appareil cardiovasculaire 1",
+          "isDone": true,
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 Cours : Appareil digestif",
+          "isDone": true,
+          "lastDate": "28/09/2026",
+          "lastCellSummary": "28/09/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 Schémas : Appareil digestif",
+          "isDone": true,
+          "lastDate": "28/09/2026",
+          "lastCellSummary": "28/09/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 Cours : Appareil cardiovasculaire (2) - Appareil respiratoire",
+          "isDone": true,
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 Schémas : Appareil cardiovasculaire (2) - Appareil respiratoire",
+          "isDone": true,
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 Cours : Généralités 2",
+          "isDone": true,
+          "lastDate": "20/09/2026",
+          "lastCellSummary": "20/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 Schémas : Généralités 2",
+          "isDone": true,
+          "lastDate": "20/09/2026",
+          "lastCellSummary": "20/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 Cours : Thorax 1",
+          "isDone": true,
+          "lastDate": "18/20",
+          "lastCellSummary": "26sept • 18/20",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 Schémas : Thorax 1",
+          "isDone": true,
+          "lastDate": "18/20",
+          "lastCellSummary": "26sept • 18/20",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 Cours : Thorax 2",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 Schémas : Thorax 2",
+          "isDone": true,
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 Cours : Thorax 3",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 Schémas : Thorax 3",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Généralités 1",
+          "isDone": true,
+          "lastDate": "03/10/2026",
+          "lastCellSummary": "03/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        }
+      ]
+    },
+    {
+      "key": "Pharmaco",
+      "name": "Pharmacologie",
+      "icon": "fa-capsules",
+      "totalLivrets": 7,
+      "doneCount": 5,
+      "remainingCount": 2,
+      "progressPercent": 71,
+      "remainingPercent": 29,
+      "livretsList": [
+        {
+          "number": 6,
+          "label": "Livret 6 : Formes galéniques (1)",
+          "isDone": true,
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Histoire des médicaments",
+          "isDone": true,
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Pharmacodynamie (1)",
+          "isDone": true,
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Pharmacodynamie (2)",
+          "isDone": true,
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 : Paramètres pharmacodynamiques (1)",
+          "isDone": true,
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 : Paramètres pharmacodynamiques (2)",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Développement des médicaments",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        }
+      ]
+    },
+    {
+      "key": "SSH",
+      "name": "Santé, Société, Humanité (SSH)",
+      "icon": "fa-book-open",
+      "totalLivrets": 15,
+      "doneCount": 9,
+      "remainingCount": 6,
+      "progressPercent": 60,
+      "remainingPercent": 40,
+      "livretsList": [
+        {
+          "number": 8,
+          "label": "Livret 8 : Anthropologie - Histoire de la Terre, évolution des espèces",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "14.91 / 20",
+            "noteNum": 14.91,
+            "attempts": 1,
+            "date": "18/10/2026 16:53"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Evolution biologique et culturelle de la lignée humaine",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "attempts": 1,
+            "date": "20/10/2026 16:08"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 - Epistémologie: définir la santé et la maladie",
+          "isDone": true,
+          "lastDate": "09/09/2026",
+          "lastCellSummary": "09/09/2026 • 16,9/20",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Epistémologie - La médecine est-elle une science ?",
+          "isDone": true,
+          "lastDate": "12/09/2026",
+          "lastCellSummary": "12/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Epistémologie - La médecine est-elle une science ? (suite et fin)",
+          "isDone": true,
+          "lastDate": "28/09/2026",
+          "lastCellSummary": "28/09/2026 • Science et jugemt",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "attempts": 5,
+            "date": "23/09/2026 16:51"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 : Epistémologie - Le jugement clinique",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 : Epistémologie : Le jugement clinique (2)",
+          "isDone": true,
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Le secret médical",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Sémantique (1)",
+          "isDone": true,
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Bizutage et conduites à risque",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "attempts": 1,
+            "date": "04/10/2026 08:23"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1: Epistémologie - Illness, disease, sickness",
+          "isDone": true,
+          "lastDate": "09/09/2026",
+          "lastCellSummary": "09/09/2026 • 16,9/20",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Epistémologie - Fait et valeur, naturalisme et normativisme",
+          "isDone": true,
+          "lastDate": "09/09/2026",
+          "lastCellSummary": "09/09/2026 • 16,9/20",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Epistémologie - Induction, déduction",
+          "isDone": true,
+          "lastDate": "12/09/2026",
+          "lastCellSummary": "12/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 9,
+            "date": "12/09/2026 15:57"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        },
+        {
+          "number": 4,
+          "label": "Livret 4 : Sensibilité, spécificité des tests diagnostiques",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "attempts": 3,
+            "date": "19/10/2026 12:09"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 : L'arbre décisionnel",
+          "isDone": true,
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 5,
+            "date": "23/09/2026 17:21"
+          },
+          "status": "REVISED",
+          "statusLabel": "Révisé & validé"
+        }
+      ]
+    },
+    {
+      "key": "Bio-Chimie",
+      "name": "Biochimie",
+      "icon": "fa-dna",
+      "totalLivrets": 1,
+      "doneCount": 0,
+      "remainingCount": 1,
+      "progressPercent": 0,
+      "remainingPercent": 100,
+      "livretsList": [
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biochimie",
+          "isDone": false,
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "attempts": 20,
+            "date": "26/09/2026 21:21"
+          },
+          "status": "ACTUALISE_DISPO",
+          "statusLabel": "Disponible sur Mon Espace Prépa"
+        }
+      ]
+    }
+  ],
   "errorsRaw": [
     {
       "id": "4",
@@ -1906,13 +4018,12 @@
   ],
   "errorsByMatiere": {
     "Biologie cellulaire / Histologie": {
-      "matiere": "Biologie cellulaire / Histologie",
-      "totalErrors": 20,
+      "name": "Biologie cellulaire / Histologie",
+      "totalCount": 20,
       "livrets": {
         "Livret 16 : Trafic intracellulaire 3": {
-          "livretTitle": "Livret 16 : Trafic intracellulaire 3",
-          "errorsCount": 1,
-          "items": [
+          "name": "Livret 16 : Trafic intracellulaire 3",
+          "questions": [
             {
               "id": "4",
               "matiere": "Biologie cellulaire / Histologie",
@@ -1959,9 +4070,8 @@
           ]
         },
         "Livret 11 : Trafic intracellulaire 2": {
-          "livretTitle": "Livret 11 : Trafic intracellulaire 2",
-          "errorsCount": 1,
-          "items": [
+          "name": "Livret 11 : Trafic intracellulaire 2",
+          "questions": [
             {
               "id": "2",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2008,9 +4118,8 @@
           ]
         },
         "Livret 5 :Trafic intracellulaire 1": {
-          "livretTitle": "Livret 5 :Trafic intracellulaire 1",
-          "errorsCount": 3,
-          "items": [
+          "name": "Livret 5 :Trafic intracellulaire 1",
+          "questions": [
             {
               "id": "2",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2143,9 +4252,8 @@
           ]
         },
         "Livret 17 : Tissu nerveux 1": {
-          "livretTitle": "Livret 17 : Tissu nerveux 1",
-          "errorsCount": 3,
-          "items": [
+          "name": "Livret 17 : Tissu nerveux 1",
+          "questions": [
             {
               "id": "3",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2278,9 +4386,8 @@
           ]
         },
         "Livret 15 : Tissu conjonctif": {
-          "livretTitle": "Livret 15 : Tissu conjonctif",
-          "errorsCount": 2,
-          "items": [
+          "name": "Livret 15 : Tissu conjonctif",
+          "questions": [
             {
               "id": "3",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2370,9 +4477,8 @@
           ]
         },
         "Livret 13 : Membranes 2": {
-          "livretTitle": "Livret 13 : Membranes 2",
-          "errorsCount": 3,
-          "items": [
+          "name": "Livret 13 : Membranes 2",
+          "questions": [
             {
               "id": "2",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2505,9 +4611,8 @@
           ]
         },
         "Livret 8 : Membranes": {
-          "livretTitle": "Livret 8 : Membranes",
-          "errorsCount": 3,
-          "items": [
+          "name": "Livret 8 : Membranes",
+          "questions": [
             {
               "id": "1",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2640,9 +4745,8 @@
           ]
         },
         "Livret 6 : Cytosquelette 2": {
-          "livretTitle": "Livret 6 : Cytosquelette 2",
-          "errorsCount": 4,
-          "items": [
+          "name": "Livret 6 : Cytosquelette 2",
+          "questions": [
             {
               "id": "4",
               "matiere": "Biologie cellulaire / Histologie",
@@ -2820,13 +4924,12 @@
       }
     },
     "Biophysique": {
-      "matiere": "Biophysique",
-      "totalErrors": 8,
+      "name": "Biophysique",
+      "totalCount": 8,
       "livrets": {
         "Livret 03 : L'eau et les solutions - Partie C - Propriétés générales des solutions": {
-          "livretTitle": "Livret 03 : L'eau et les solutions - Partie C - Propriétés générales des solutions",
-          "errorsCount": 1,
-          "items": [
+          "name": "Livret 03 : L'eau et les solutions - Partie C - Propriétés générales des solutions",
+          "questions": [
             {
               "id": "8",
               "matiere": "Biophysique",
@@ -2873,9 +4976,8 @@
           ]
         },
         "Livret 02 : L'eau et les solutions - Partie B - L'eau": {
-          "livretTitle": "Livret 02 : L'eau et les solutions - Partie B - L'eau",
-          "errorsCount": 4,
-          "items": [
+          "name": "Livret 02 : L'eau et les solutions - Partie B - L'eau",
+          "questions": [
             {
               "id": "3",
               "matiere": "Biophysique",
@@ -3051,9 +5153,8 @@
           ]
         },
         "Livret 01 : L'eau et les solutions - A - Les états de la matière": {
-          "livretTitle": "Livret 01 : L'eau et les solutions - A - Les états de la matière",
-          "errorsCount": 3,
-          "items": [
+          "name": "Livret 01 : L'eau et les solutions - A - Les états de la matière",
+          "questions": [
             {
               "id": "1",
               "matiere": "Biophysique",
@@ -3188,13 +5289,12 @@
       }
     },
     "Pharmacologie": {
-      "matiere": "Pharmacologie",
-      "totalErrors": 6,
+      "name": "Pharmacologie",
+      "totalCount": 6,
       "livrets": {
         "Livret 3 : Pharmacodynamie (2)": {
-          "livretTitle": "Livret 3 : Pharmacodynamie (2)",
-          "errorsCount": 1,
-          "items": [
+          "name": "Livret 3 : Pharmacodynamie (2)",
+          "questions": [
             {
               "id": "3",
               "matiere": "Pharmacologie",
@@ -3241,9 +5341,8 @@
           ]
         },
         "Livret 2 : Pharmacodynamie (1)": {
-          "livretTitle": "Livret 2 : Pharmacodynamie (1)",
-          "errorsCount": 4,
-          "items": [
+          "name": "Livret 2 : Pharmacodynamie (1)",
+          "questions": [
             {
               "id": "1",
               "matiere": "Pharmacologie",
@@ -3419,9 +5518,8 @@
           ]
         },
         "Livret 1 : Histoire des médicaments": {
-          "livretTitle": "Livret 1 : Histoire des médicaments",
-          "errorsCount": 1,
-          "items": [
+          "name": "Livret 1 : Histoire des médicaments",
+          "questions": [
             {
               "id": "3",
               "matiere": "Pharmacologie",
@@ -3469,14 +5567,13 @@
         }
       }
     },
-    "Chimie générale": {
-      "matiere": "Chimie générale",
-      "totalErrors": 10,
+    "Chimie": {
+      "name": "Chimie",
+      "totalCount": 10,
       "livrets": {
         "Livret 5 : Orbitales Moléculaires": {
-          "livretTitle": "Livret 5 : Orbitales Moléculaires",
-          "errorsCount": 2,
-          "items": [
+          "name": "Livret 5 : Orbitales Moléculaires",
+          "questions": [
             {
               "id": "1",
               "matiere": "Chimie",
@@ -3566,9 +5663,8 @@
           ]
         },
         "Livret 4 : Liaison chimique et méthode VSEPR": {
-          "livretTitle": "Livret 4 : Liaison chimique et méthode VSEPR",
-          "errorsCount": 2,
-          "items": [
+          "name": "Livret 4 : Liaison chimique et méthode VSEPR",
+          "questions": [
             {
               "id": "2",
               "matiere": "Chimie",
@@ -3658,9 +5754,8 @@
           ]
         },
         "Livret 3 : Théorie de Lewis, Liaisons chimiques": {
-          "livretTitle": "Livret 3 : Théorie de Lewis, Liaisons chimiques",
-          "errorsCount": 3,
-          "items": [
+          "name": "Livret 3 : Théorie de Lewis, Liaisons chimiques",
+          "questions": [
             {
               "id": "7",
               "matiere": "Chimie",
@@ -3793,9 +5888,8 @@
           ]
         },
         "Livret 2 : Classification périodique": {
-          "livretTitle": "Livret 2 : Classification périodique",
-          "errorsCount": 2,
-          "items": [
+          "name": "Livret 2 : Classification périodique",
+          "questions": [
             {
               "id": "2",
               "matiere": "Chimie",
@@ -3885,9 +5979,8 @@
           ]
         },
         "Livret 1 : Atome, théorie quantique": {
-          "livretTitle": "Livret 1 : Atome, théorie quantique",
-          "errorsCount": 1,
-          "items": [
+          "name": "Livret 1 : Atome, théorie quantique",
+          "questions": [
             {
               "id": "8",
               "matiere": "Chimie",
@@ -3935,2503 +6028,5 @@
         }
       }
     }
-  },
-  "pendingGlobal": [
-    {
-      "matiere": "Biologie cellulaire / Histologie",
-      "matiereKey": "Bio-cell",
-      "livretNum": 19,
-      "label": "Livret 19",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Pharmacologie",
-      "matiereKey": "Pharmaco",
-      "livretNum": 5,
-      "label": "Livret 5",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Chimie générale",
-      "matiereKey": "Chimie",
-      "livretNum": 8,
-      "label": "Livret 8",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Chimie Organique",
-      "matiereKey": "Chimie-Orga",
-      "livretNum": 6,
-      "label": "Livret 6",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Chimie Organique",
-      "matiereKey": "Chimie-Orga",
-      "livretNum": 7,
-      "label": "Livret 7",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Anatomie générale",
-      "matiereKey": "Anat",
-      "livretNum": 8,
-      "label": "Livret 8",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Biophysique",
-      "matiereKey": "Bio-Physique",
-      "livretNum": 10,
-      "label": "Livret 10",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Biophysique",
-      "matiereKey": "Bio-Physique",
-      "livretNum": 11,
-      "label": "Livret 11",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Santé, Société, Humanité",
-      "matiereKey": "SSH",
-      "livretNum": 7,
-      "label": "Livret 7",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Biochimie",
-      "matiereKey": "Bio-Chimie",
-      "livretNum": 1,
-      "label": "Livret 1",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Biochimie",
-      "matiereKey": "Bio-Chimie",
-      "livretNum": 2,
-      "label": "Livret 2",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Biochimie",
-      "matiereKey": "Bio-Chimie",
-      "livretNum": 3,
-      "label": "Livret 3",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    },
-    {
-      "matiere": "Connaissance du Médicament",
-      "matiereKey": "Médicament",
-      "livretNum": 3,
-      "label": "Livret 3",
-      "advice": "Cours fac déjà dispensé. Livret 2026 non paru. Travailler sur le polycopié N-1."
-    }
-  ],
-  "syllabus": [
-    {
-      "key": "Bio-cell",
-      "name": "Biologie cellulaire / Histologie",
-      "colles": "16.53/20",
-      "totalLivrets": 28,
-      "actualisesCount": 18,
-      "facCurrentLivret": 19,
-      "doneCount": 18,
-      "remainingCount": 10,
-      "progressPercent": 64,
-      "remainingPercent": 36,
-      "pendingCount": 1,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "23/09/2026",
-          "lastCellSummary": "23/09/2026 • 19,5",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "23/09/2026",
-          "lastCellSummary": "23/09/2026 • 19,7",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "23/09/2026",
-          "lastCellSummary": "23/09/2026 • 19,5",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": true,
-          "lastDate": "23/09/2026",
-          "lastCellSummary": "23/09/2026 • 17,3 (prop inexacte-&gt;0/1)",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": true,
-          "lastDate": "20/10/2026",
-          "lastCellSummary": "20/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": true,
-          "lastDate": "08/10/2026",
-          "lastCellSummary": "08/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": true,
-          "lastDate": "12/10/2026",
-          "lastCellSummary": "12/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": true,
-          "lastDate": "20/10/2026",
-          "lastCellSummary": "20/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": true,
-          "lastDate": "13/10/2026",
-          "lastCellSummary": "13/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": true,
-          "lastDate": "20/10/2026",
-          "lastCellSummary": "20/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": true,
-          "lastDate": "22/10/2026",
-          "lastCellSummary": "22/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": true,
-          "lastDate": "22/10/2026",
-          "lastCellSummary": "22/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Pharmaco",
-      "name": "Pharmacologie",
-      "colles": "16.00/20",
-      "totalLivrets": 28,
-      "actualisesCount": 4,
-      "facCurrentLivret": 6,
-      "doneCount": 5,
-      "remainingCount": 23,
-      "progressPercent": 18,
-      "remainingPercent": 82,
-      "pendingCount": 2,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "12/10/2026",
-          "lastCellSummary": "12/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "12/10/2026",
-          "lastCellSummary": "12/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "11/10/2026",
-          "lastCellSummary": "11/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": true,
-          "lastDate": "11/10/2026",
-          "lastCellSummary": "11/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Chimie",
-      "name": "Chimie générale",
-      "colles": "16.00/20",
-      "totalLivrets": 28,
-      "actualisesCount": 7,
-      "facCurrentLivret": 8,
-      "doneCount": 5,
-      "remainingCount": 23,
-      "progressPercent": 18,
-      "remainingPercent": 82,
-      "pendingCount": 1,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Chimie-Orga",
-      "name": "Chimie Organique",
-      "colles": "16.00/20",
-      "totalLivrets": 28,
-      "actualisesCount": 5,
-      "facCurrentLivret": 7,
-      "doneCount": 7,
-      "remainingCount": 21,
-      "progressPercent": 25,
-      "remainingPercent": 75,
-      "pendingCount": 2,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "16/09/2026",
-          "lastCellSummary": "16/09/2026 • J1",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "17/09/2026",
-          "lastCellSummary": "17/09/2026 • J1",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "22/09/2026",
-          "lastCellSummary": "22/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": true,
-          "lastDate": "22/09/2026",
-          "lastCellSummary": "22/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": true,
-          "lastDate": "22/09/2026",
-          "lastCellSummary": "22/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Anat",
-      "name": "Anatomie générale",
-      "colles": "17.20/20",
-      "totalLivrets": 28,
-      "actualisesCount": 6,
-      "facCurrentLivret": 8,
-      "doneCount": 7,
-      "remainingCount": 21,
-      "progressPercent": 25,
-      "remainingPercent": 75,
-      "pendingCount": 2,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "03/10/2026",
-          "lastCellSummary": "03/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "20/09/2026",
-          "lastCellSummary": "20/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "18/20",
-          "lastCellSummary": "26sept • 18/20",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": true,
-          "lastDate": "28/09/2026",
-          "lastCellSummary": "28/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": true,
-          "lastDate": "19/10/2026",
-          "lastCellSummary": "19/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": true,
-          "lastDate": "20/10/2026",
-          "lastCellSummary": "20/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": true,
-          "lastDate": "21/10/2026",
-          "lastCellSummary": "21/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Bio-Physique",
-      "name": "Biophysique",
-      "colles": "16.00/20",
-      "totalLivrets": 28,
-      "actualisesCount": 9,
-      "facCurrentLivret": 11,
-      "doneCount": 4,
-      "remainingCount": 24,
-      "progressPercent": 14,
-      "remainingPercent": 86,
-      "pendingCount": 2,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "15/09/2026",
-          "lastCellSummary": "15/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "15/09/2026",
-          "lastCellSummary": "15/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "15/09/2026",
-          "lastCellSummary": "15/09/2026 • J7",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": true,
-          "lastDate": "12/10/2026",
-          "lastCellSummary": "12/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "SSH",
-      "name": "Santé, Société, Humanité",
-      "colles": "16.90/20",
-      "totalLivrets": 28,
-      "actualisesCount": 6,
-      "facCurrentLivret": 7,
-      "doneCount": 5,
-      "remainingCount": 23,
-      "progressPercent": 18,
-      "remainingPercent": 82,
-      "pendingCount": 1,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "09/09/2026",
-          "lastCellSummary": "09/09/2026 • 16,9/20",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "12/09/2026",
-          "lastCellSummary": "12/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": true,
-          "lastDate": "28/09/2026",
-          "lastCellSummary": "28/09/2026 • Science et jugemt",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa (QCM 2026)"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": true,
-          "lastDate": "11/10/2026",
-          "lastCellSummary": "11/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": true,
-          "lastDate": "11/10/2026",
-          "lastCellSummary": "11/10/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Bio-Chimie",
-      "name": "Biochimie",
-      "colles": "--",
-      "totalLivrets": 28,
-      "actualisesCount": 0,
-      "facCurrentLivret": 3,
-      "doneCount": 0,
-      "remainingCount": 28,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "pendingCount": 3,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    },
-    {
-      "key": "Médicament",
-      "name": "Connaissance du Médicament",
-      "colles": "--",
-      "totalLivrets": 28,
-      "actualisesCount": 2,
-      "facCurrentLivret": 3,
-      "doneCount": 2,
-      "remainingCount": 26,
-      "progressPercent": 7,
-      "remainingPercent": 93,
-      "pendingCount": 1,
-      "livretsList": [
-        {
-          "number": 1,
-          "label": "Livret 1",
-          "isDone": true,
-          "lastDate": "07/09/2026",
-          "lastCellSummary": "07/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2",
-          "isDone": true,
-          "lastDate": "07/09/2026",
-          "lastCellSummary": "07/09/2026",
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 3,
-          "label": "Livret 3",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "PENDING_ACTUALISATION",
-          "statusLabel": "En attente prépa (Fac dispensé -> Activer N-1)"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 6,
-          "label": "Livret 6",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 7,
-          "label": "Livret 7",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 8,
-          "label": "Livret 8",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 9,
-          "label": "Livret 9",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 10,
-          "label": "Livret 10",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 11,
-          "label": "Livret 11",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 12,
-          "label": "Livret 12",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 13,
-          "label": "Livret 13",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 14,
-          "label": "Livret 14",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 15,
-          "label": "Livret 15",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 16,
-          "label": "Livret 16",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 17,
-          "label": "Livret 17",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 18,
-          "label": "Livret 18",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 19,
-          "label": "Livret 19",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 20,
-          "label": "Livret 20",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 21,
-          "label": "Livret 21",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 22,
-          "label": "Livret 22",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 23,
-          "label": "Livret 23",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 24,
-          "label": "Livret 24",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 25,
-          "label": "Livret 25",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 26,
-          "label": "Livret 26",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 27,
-          "label": "Livret 27",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        },
-        {
-          "number": 28,
-          "label": "Livret 28",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "status": "FUTURE_FAC",
-          "statusLabel": "Semaines fac ultérieures"
-        }
-      ]
-    }
-  ]
+  }
 }

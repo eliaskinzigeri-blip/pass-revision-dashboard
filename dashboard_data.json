@@ -1,14 +1,16 @@
 {
-  "generated_at": "23/10/2026 17:17:09",
-  "timestamp": 1792768629766,
+  "generated_at": "23/10/2026 17:32:11",
+  "timestamp": 1792769531933,
   "moodle_url": "https://moodle.univ-lille.fr/course/view.php?id=28230&sectionid=348486",
   "google_sheet_url": "https://docs.google.com/spreadsheets/d/1OiFbOQRlOZBHyy7uIvDQYC797M0kDNb29iw6YIEuSlA/export?format=xlsx",
   "exam_date": "2026-12-08",
   "days_to_exam": 45,
   "stats": {
-    "total_livrets_count": 83,
-    "total_livrets_done": 59,
-    "total_livrets_remaining": 24,
+    "total_livrets_count": 78,
+    "total_livrets_done": 75,
+    "total_acquis": 68,
+    "total_revise_non_acquis": 7,
+    "total_livrets_remaining": 3,
     "total_colles_count": 8,
     "total_cb_count": 8,
     "total_qcm_sessions": 64,
@@ -835,272 +837,326 @@
         {
           "number": 4,
           "label": "Livret 4 : Cytosquelette 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "23/09/2026",
           "lastCellSummary": "23/09/2026 • 17,3 (prop inexacte->0/1)",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 6,
           "label": "Livret 6 : Cytosquelette 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "21/10/2026",
           "lastCellSummary": "21/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 14,
           "label": "Livret 14 : Cytoquelette 3",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "blue",
+          "squareBg": "#2563eb",
           "lastDate": "13/10/2026",
           "lastCellSummary": "13/10/2026",
           "bestQcm": null,
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Révisé dans le tableau (QCM en attente)"
         },
         {
           "number": 1,
           "label": "Livret 1 : Introduction à la biologie cellulaire",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "23/09/2026",
           "lastCellSummary": "23/09/2026 • 19,5",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         },
         {
           "number": 8,
           "label": "Livret 8 : Membranes",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         },
         {
           "number": 13,
           "label": "Livret 13 : Membranes 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "17.60 / 20",
             "noteNum": 17.6,
+            "avgNote": 17.6,
             "attempts": 1,
             "date": "19/10/2026 10:38"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.6/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 : Méthodes en histologie 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "23/09/2026",
           "lastCellSummary": "23/09/2026 • 19,5",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 12,
           "label": "Livret 12 : Méthodes en histologie 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "21/10/2026",
           "lastCellSummary": "21/10/2026",
           "bestQcm": {
             "note": "17.41 / 20",
             "noteNum": 17.41,
+            "avgNote": 17.41,
             "attempts": 1,
             "date": "21/10/2026 15:27"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 : Méthodes en biologie cellulaire",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "23/09/2026",
           "lastCellSummary": "23/09/2026 • 19,7",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 15,
           "label": "Livret 15 : Tissu conjonctif",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 2,
             "date": "22/10/2026 09:35"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 17,
           "label": "Livret 17 : Tissu nerveux 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "22/10/2026",
           "lastCellSummary": "22/10/2026",
           "bestQcm": {
             "note": "19.64 / 20",
             "noteNum": 19.64,
+            "avgNote": 18.19,
             "attempts": 2,
             "date": "22/10/2026 09:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
         },
         {
           "number": 19,
           "label": "Livret 19 : Tissu nerveux 2",
-          "isDone": false,
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
           "lastDate": "Non encore révisé",
           "lastCellSummary": "Non révisé",
           "bestQcm": null,
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Non encore révisé"
         },
         {
           "number": 18,
           "label": "Livret 18 : Tissu squelettique",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "22/10/2026",
           "lastCellSummary": "22/10/2026",
           "bestQcm": {
             "note": "18.15 / 20",
             "noteNum": 18.15,
+            "avgNote": 18.15,
             "attempts": 1,
             "date": "22/10/2026 10:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 : Tissus épithéliaux 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "08/10/2026",
           "lastCellSummary": "08/10/2026",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 9,
           "label": "Livret 9 : Tissus épitheliaux 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "blue",
+          "squareBg": "#2563eb",
           "lastDate": "12/10/2026",
           "lastCellSummary": "12/10/2026",
           "bestQcm": null,
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Révisé dans le tableau (QCM en attente)"
         },
         {
           "number": 10,
           "label": "Livret 10 : Tissus épitheliaux 3",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "21/10/2026",
           "lastCellSummary": "21/10/2026",
           "bestQcm": {
             "note": "18.00 / 20",
             "noteNum": 18.0,
+            "avgNote": 18.0,
             "attempts": 1,
             "date": "21/10/2026 14:58"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.0/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 :Trafic intracellulaire 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/10/2026",
           "lastCellSummary": "20/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 11,
           "label": "Livret 11 : Trafic intracellulaire 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/10/2026",
           "lastCellSummary": "20/10/2026",
           "bestQcm": {
             "note": "18.00 / 20",
             "noteNum": 18.0,
+            "avgNote": 18.0,
             "attempts": 1,
             "date": "20/10/2026 16:08"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.0/20)"
         },
         {
           "number": 16,
           "label": "Livret 16 : Trafic intracellulaire 3",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/10/2026",
           "lastCellSummary": "20/10/2026",
           "bestQcm": {
             "note": "17.33 / 20",
             "noteNum": 17.33,
+            "avgNote": 17.33,
             "attempts": 1,
             "date": "20/10/2026 16:22"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
         }
       ]
     },
@@ -1109,260 +1165,310 @@
       "name": "Chimie Générale & Organique",
       "icon": "fa-flask",
       "totalLivrets": 17,
-      "doneCount": 10,
-      "remainingCount": 7,
-      "progressPercent": 59,
-      "remainingPercent": 41,
+      "doneCount": 16,
+      "remainingCount": 1,
+      "progressPercent": 94,
+      "remainingPercent": 6,
       "livretsList": [
         {
           "number": 1,
           "label": "Livret 1 : Atome, théorie quantique",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 : Classification périodique",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 : Théorie de Lewis, Liaisons chimiques",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 4,
           "label": "Livret 4 : Liaison chimique et méthode VSEPR",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 : Orbitales Moléculaires",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 6,
           "label": "Livret 6 : Hybridation",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:25 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 : Liaisons faibles",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "04/10/2026 08:23 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 8,
           "label": "Livret 8 : Thermodynamique",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
+          "lastDate": "18/10/2026 16:53 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         },
         {
           "number": 1,
           "label": "Livret 1 : Alcanes, Cyclanes",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 : Les alcènes",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 : Les polyènes",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 4,
           "label": "Livret 4 : Les arènes",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 : Les oses, Stéréochimie",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 6,
           "label": "Livret 6 : Les oses, les alcools, SN1 et SN2",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:25 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 : Les oses, dérivés carbonylés",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "04/10/2026 08:23 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 8,
           "label": "Livret 8 : Les oses_dérivés carbonylés 2",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
+          "lastDate": "18/10/2026 16:53 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         },
         {
           "number": 9,
           "label": "Livret 9 : Les protides",
-          "isDone": false,
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
           "lastDate": "Non encore révisé",
           "lastCellSummary": "Non révisé",
           "bestQcm": null,
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Non encore révisé"
         }
       ]
     },
@@ -1371,140 +1477,166 @@
       "name": "Biophysique",
       "icon": "fa-wave-square",
       "totalLivrets": 9,
-      "doneCount": 4,
-      "remainingCount": 5,
-      "progressPercent": 44,
-      "remainingPercent": 56,
+      "doneCount": 9,
+      "remainingCount": 0,
+      "progressPercent": 100,
+      "remainingPercent": 0,
       "livretsList": [
         {
           "number": 1,
           "label": "Livret 01 : L'eau et les solutions - A - Les états de la matière",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "15/09/2026",
           "lastCellSummary": "15/09/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.43,
             "attempts": 21,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.43/20)"
         },
         {
           "number": 2,
           "label": "Livret 02 : L'eau et les solutions - Partie B - L'eau",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "15/09/2026",
           "lastCellSummary": "15/09/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 3,
           "label": "Livret 03 : L'eau et les solutions - Partie C - Propriétés générales des solutions",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "15/09/2026",
           "lastCellSummary": "15/09/2026 • J7",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 4,
           "label": "Livret 04 : L'eau et les solutions - D - Solutions hydro électrolytiques",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 12:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 5,
           "label": "Livret 05 : Aspects physiques des membranes - Partie 1 & 2.1 (1)",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 9,
           "label": "Livret 09 : Aspects physiques des membranes - Partie 2.1 (2)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "blue",
+          "squareBg": "#2563eb",
           "lastDate": "12/10/2026",
           "lastCellSummary": "12/10/2026",
           "bestQcm": null,
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Révisé dans le tableau (QCM en attente)"
         },
         {
           "number": 6,
           "label": "Livret 06 : Réactions acido-basiques - (1) - Définitions & pH des solutions",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:25 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 7,
           "label": "Livret 07 : Réactions acido-basiques - (2) - Dosages acido-basiques",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "04/10/2026 08:23 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 8,
           "label": "Livret 08 : Réactions acido-basiques - (3) - Théorie de Lewis - Equilibres de solubilité",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
+          "lastDate": "18/10/2026 16:53 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         }
       ]
     },
@@ -1513,235 +1645,280 @@
       "name": "Anatomie générale",
       "icon": "fa-bone",
       "totalLivrets": 15,
-      "doneCount": 13,
-      "remainingCount": 2,
-      "progressPercent": 87,
-      "remainingPercent": 13,
+      "doneCount": 15,
+      "remainingCount": 0,
+      "progressPercent": 100,
+      "remainingPercent": 0,
       "livretsList": [
         {
           "number": 6,
           "label": "Livret 6 Cours : Appareil cardiovasculaire 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/10/2026",
           "lastCellSummary": "20/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 6,
           "label": "Livret 6 Schémas : Appareil cardiovasculaire 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/10/2026",
           "lastCellSummary": "20/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 4,
           "label": "Livret 4 Cours : Appareil digestif",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "28/09/2026",
           "lastCellSummary": "28/09/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 4,
           "label": "Livret 4 Schémas : Appareil digestif",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "28/09/2026",
           "lastCellSummary": "28/09/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 Cours : Appareil cardiovasculaire (2) - Appareil respiratoire",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "21/10/2026",
           "lastCellSummary": "21/10/2026",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 Schémas : Appareil cardiovasculaire (2) - Appareil respiratoire",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "21/10/2026",
           "lastCellSummary": "21/10/2026",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 Cours : Généralités 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/09/2026",
           "lastCellSummary": "20/09/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 Schémas : Généralités 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "20/09/2026",
           "lastCellSummary": "20/09/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 Cours : Thorax 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "18/20",
           "lastCellSummary": "26sept • 18/20",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 Schémas : Thorax 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "18/20",
           "lastCellSummary": "26sept • 18/20",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 Cours : Thorax 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 Schémas : Thorax 2",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "19/10/2026",
           "lastCellSummary": "19/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 8,
           "label": "Livret 8 Cours : Thorax 3",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
+          "lastDate": "18/10/2026 16:53 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         },
         {
           "number": 8,
           "label": "Livret 8 Schémas : Thorax 3",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
+          "lastDate": "18/10/2026 16:53 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         },
         {
           "number": 1,
           "label": "Livret 1 : Généralités 1",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "03/10/2026",
           "lastCellSummary": "03/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         }
       ]
     },
@@ -1750,115 +1927,136 @@
       "name": "Pharmacologie",
       "icon": "fa-capsules",
       "totalLivrets": 7,
-      "doneCount": 5,
-      "remainingCount": 2,
-      "progressPercent": 71,
-      "remainingPercent": 29,
+      "doneCount": 7,
+      "remainingCount": 0,
+      "progressPercent": 100,
+      "remainingPercent": 0,
       "livretsList": [
         {
           "number": 6,
           "label": "Livret 6 : Formes galéniques (1)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "21/10/2026",
           "lastCellSummary": "21/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 1,
           "label": "Livret 1 : Histoire des médicaments",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "12/10/2026",
           "lastCellSummary": "12/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 : Pharmacodynamie (1)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "12/10/2026",
           "lastCellSummary": "12/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 : Pharmacodynamie (2)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "11/10/2026",
           "lastCellSummary": "11/10/2026",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 4,
           "label": "Livret 4 : Paramètres pharmacodynamiques (1)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "11/10/2026",
           "lastCellSummary": "11/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 : Paramètres pharmacodynamiques (2)",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 : Développement des médicaments",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "04/10/2026 08:23 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         }
       ]
     },
@@ -1866,231 +2064,185 @@
       "key": "SSH",
       "name": "Santé, Société, Humanité (SSH)",
       "icon": "fa-book-open",
-      "totalLivrets": 15,
+      "totalLivrets": 10,
       "doneCount": 9,
-      "remainingCount": 6,
-      "progressPercent": 60,
-      "remainingPercent": 40,
+      "remainingCount": 1,
+      "progressPercent": 90,
+      "remainingPercent": 10,
       "livretsList": [
         {
           "number": 8,
           "label": "Livret 8 : Anthropologie - Histoire de la Terre, évolution des espèces",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "red",
+          "squareBg": "#b91c1c",
+          "lastDate": "18/10/2026 16:53 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "14.91 / 20",
             "noteNum": 14.91,
+            "avgNote": 14.91,
             "attempts": 1,
             "date": "18/10/2026 16:53"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Révisé - Non acquis (< 15 : 14.91/20)"
         },
         {
           "number": 11,
           "label": "Livret 11 : Evolution biologique et culturelle de la lignée humaine",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "18.00 / 20",
             "noteNum": 18.0,
+            "avgNote": 18.0,
             "attempts": 1,
             "date": "20/10/2026 16:08"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.0/20)"
         },
         {
           "number": 1,
           "label": "Livret 1 - Epistémologie: définir la santé et la maladie",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "09/09/2026",
           "lastCellSummary": "09/09/2026 • 16,9/20",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         },
         {
           "number": 2,
           "label": "Livret 2 : Epistémologie - La médecine est-elle une science ?",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "12/09/2026",
           "lastCellSummary": "12/09/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.22,
             "attempts": 9,
             "date": "12/09/2026 15:57"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.22/20)"
         },
         {
           "number": 3,
           "label": "Livret 3 : Epistémologie - La médecine est-elle une science ? (suite et fin)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "28/09/2026",
           "lastCellSummary": "28/09/2026 • Science et jugemt",
           "bestQcm": {
             "note": "19.56 / 20",
             "noteNum": 19.56,
+            "avgNote": 17.65,
             "attempts": 5,
             "date": "23/09/2026 16:51"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.65/20)"
         },
         {
           "number": 4,
           "label": "Livret 4 : Epistémologie - Le jugement clinique",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 12:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 18.11,
             "attempts": 3,
             "date": "19/10/2026 12:09"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (18.11/20)"
         },
         {
           "number": 5,
           "label": "Livret 5 : Epistémologie : Le jugement clinique (2)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "11/10/2026",
           "lastCellSummary": "11/10/2026",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 18.23,
             "attempts": 5,
             "date": "23/09/2026 17:21"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
         },
         {
           "number": 9,
           "label": "Livret 9 : Le secret médical",
-          "isDone": false,
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
           "lastDate": "Non encore révisé",
           "lastCellSummary": "Non révisé",
           "bestQcm": null,
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Non encore révisé"
         },
         {
           "number": 6,
           "label": "Livret 6 : Sémantique (1)",
-          "isDone": true,
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
           "lastDate": "11/10/2026",
           "lastCellSummary": "11/10/2026",
           "bestQcm": {
             "note": "19.00 / 20",
             "noteNum": 19.0,
+            "avgNote": 17.73,
             "attempts": 5,
             "date": "23/09/2026 17:25"
           },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
         },
         {
           "number": 7,
           "label": "Livret 7 : Bizutage et conduites à risque",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "04/10/2026 08:23 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "18.40 / 20",
             "noteNum": 18.4,
+            "avgNote": 18.4,
             "attempts": 1,
             "date": "04/10/2026 08:23"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
-        },
-        {
-          "number": 1,
-          "label": "Livret 1: Epistémologie - Illness, disease, sickness",
-          "isDone": true,
-          "lastDate": "09/09/2026",
-          "lastCellSummary": "09/09/2026 • 16,9/20",
-          "bestQcm": {
-            "note": "20.00 / 20",
-            "noteNum": 20.0,
-            "attempts": 20,
-            "date": "26/09/2026 21:21"
-          },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 1,
-          "label": "Livret 1 : Epistémologie - Fait et valeur, naturalisme et normativisme",
-          "isDone": true,
-          "lastDate": "09/09/2026",
-          "lastCellSummary": "09/09/2026 • 16,9/20",
-          "bestQcm": {
-            "note": "20.00 / 20",
-            "noteNum": 20.0,
-            "attempts": 20,
-            "date": "26/09/2026 21:21"
-          },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 2,
-          "label": "Livret 2 : Epistémologie - Induction, déduction",
-          "isDone": true,
-          "lastDate": "12/09/2026",
-          "lastCellSummary": "12/09/2026",
-          "bestQcm": {
-            "note": "20.00 / 20",
-            "noteNum": 20.0,
-            "attempts": 9,
-            "date": "12/09/2026 15:57"
-          },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
-        },
-        {
-          "number": 4,
-          "label": "Livret 4 : Sensibilité, spécificité des tests diagnostiques",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
-          "bestQcm": {
-            "note": "19.00 / 20",
-            "noteNum": 19.0,
-            "attempts": 3,
-            "date": "19/10/2026 12:09"
-          },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
-        },
-        {
-          "number": 5,
-          "label": "Livret 5 : L'arbre décisionnel",
-          "isDone": true,
-          "lastDate": "11/10/2026",
-          "lastCellSummary": "11/10/2026",
-          "bestQcm": {
-            "note": "20.00 / 20",
-            "noteNum": 20.0,
-            "attempts": 5,
-            "date": "23/09/2026 17:21"
-          },
-          "status": "REVISED",
-          "statusLabel": "Révisé & validé"
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
         }
       ]
     },
@@ -2099,25 +2251,28 @@
       "name": "Biochimie",
       "icon": "fa-dna",
       "totalLivrets": 1,
-      "doneCount": 0,
-      "remainingCount": 1,
-      "progressPercent": 0,
-      "remainingPercent": 100,
+      "doneCount": 1,
+      "remainingCount": 0,
+      "progressPercent": 100,
+      "remainingPercent": 0,
       "livretsList": [
         {
           "number": 1,
           "label": "Livret 1 : Introduction à la biochimie",
-          "isDone": false,
-          "lastDate": "Non encore révisé",
-          "lastCellSummary": "Non révisé",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "26/09/2026 21:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
           "bestQcm": {
             "note": "20.00 / 20",
             "noteNum": 20.0,
+            "avgNote": 17.8,
             "attempts": 20,
             "date": "26/09/2026 21:21"
           },
-          "status": "ACTUALISE_DISPO",
-          "statusLabel": "Disponible sur Mon Espace Prépa"
+          "statusLabel": "Acquis & Maîtrisé (17.8/20)"
         }
       ]
     }

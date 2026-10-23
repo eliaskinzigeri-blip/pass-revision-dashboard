@@ -532,7 +532,21 @@
             renderErrorQuestions();
             updateAnchoringProgress();
             renderCarnetHistory();
+            updateApiKeyIndicator();
         });
+
+        function updateApiKeyIndicator() {
+            const ind = document.getElementById('api-key-indicator');
+            if (ind) {
+                if (userApiKey) {
+                    ind.textContent = userApiKey.slice(0, 4) + '...' + userApiKey.slice(-4);
+                    ind.className = 'font-mono text-emerald-700 font-bold';
+                } else {
+                    ind.textContent = 'Non configurée (cliquer)';
+                    ind.className = 'font-mono text-amber-700 font-bold underline cursor-pointer';
+                }
+            }
+        }
 
         function switchTab(tabId) {
             currentTab = tabId;
@@ -707,12 +721,12 @@ Réponds STRICTEMENT sous format JSON valide avec les clés suivantes :
 
         function toggleApiKeyModal() {
             const current = userApiKey ? (userApiKey.slice(0, 4) + '...' + userApiKey.slice(-4)) : 'Non définie';
-            const newKey = prompt("Entrez votre clé API Google Gemini (actuelle: " + current + ") :", userApiKey);
-            if (newKey && newKey.trim().length > 10) {
+            const newKey = prompt("🔑 Entrez votre clé API Google Gemini (actuelle: " + current + ") :", userApiKey);
+            if (newKey !== null && newKey.trim()) {
                 userApiKey = newKey.trim();
                 localStorage.setItem(GEMINI_STORAGE_KEY, userApiKey);
-                document.getElementById('api-key-indicator').textContent = userApiKey.slice(0, 4) + '...' + userApiKey.slice(-4);
-                alert("Clé API Gemini mise à jour avec succès !");
+                updateApiKeyIndicator();
+                alert("Clé API Gemini mise à jour avec succès sur cet appareil !");
             }
         }
 

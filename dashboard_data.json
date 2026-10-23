@@ -1,6 +1,6 @@
 {
-  "generated_at": "23/10/2026 17:32:11",
-  "timestamp": 1792769531933,
+  "generated_at": "23/10/2026 17:47:05",
+  "timestamp": 1792770425053,
   "moodle_url": "https://moodle.univ-lille.fr/course/view.php?id=28230&sectionid=348486",
   "google_sheet_url": "https://docs.google.com/spreadsheets/d/1OiFbOQRlOZBHyy7uIvDQYC797M0kDNb29iw6YIEuSlA/export?format=xlsx",
   "exam_date": "2026-12-08",
@@ -15,6 +15,7 @@
     "total_cb_count": 8,
     "total_qcm_sessions": 64,
     "average_colles_score": "16.99",
+    "average_official_evals": "16.99",
     "average_cb_score": "12.63",
     "average_qcm_score": "17.14",
     "active_errors_count": 44
@@ -28,6 +29,8 @@
       "note": "18.13 / 20",
       "note_num": 18.13,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-microscope"
     },
     {
@@ -38,6 +41,8 @@
       "note": "15.20 / 20",
       "note_num": 15.2,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-capsules"
     },
     {
@@ -48,6 +53,8 @@
       "note": "17.87 / 20",
       "note_num": 17.87,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-book-open"
     },
     {
@@ -58,6 +65,8 @@
       "note": "19.00 / 20",
       "note_num": 19.0,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-bone"
     },
     {
@@ -68,6 +77,8 @@
       "note": "17.20 / 20",
       "note_num": 17.2,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-bone"
     },
     {
@@ -78,6 +89,8 @@
       "note": "16.00 / 20",
       "note_num": 16.0,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-wave-square"
     },
     {
@@ -88,6 +101,8 @@
       "note": "16.00 / 20",
       "note_num": 16.0,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-flask"
     },
     {
@@ -98,6 +113,8 @@
       "note": "16.53 / 20",
       "note_num": 16.53,
       "type": "Colle",
+      "is_pre_rentree": false,
+      "counts_in_average": true,
       "icon": "fa-microscope"
     },
     {
@@ -108,6 +125,8 @@
       "note": "2.00 / 20",
       "note_num": 2.0,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -118,6 +137,8 @@
       "note": "9.60 / 20",
       "note_num": 9.6,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -128,6 +149,8 @@
       "note": "16.27 / 20",
       "note_num": 16.27,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -138,6 +161,8 @@
       "note": "11.69 / 20",
       "note_num": 11.69,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -148,6 +173,8 @@
       "note": "14.29 / 20",
       "note_num": 14.29,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -158,6 +185,8 @@
       "note": "16.00 / 20",
       "note_num": 16.0,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -168,6 +197,8 @@
       "note": "17.23 / 20",
       "note_num": 17.23,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     },
     {
@@ -178,6 +209,8 @@
       "note": "14.00 / 20",
       "note_num": 14.0,
       "type": "Concours Blanc",
+      "is_pre_rentree": true,
+      "counts_in_average": false,
       "icon": "fa-award"
     }
   ],

@@ -1,10 +1,10 @@
 {
-  "generated_at": "24/10/2026 21:00:04",
-  "timestamp": 1792868404771,
+  "generated_at": "25/10/2026 21:11:43",
+  "timestamp": 1792959103134,
   "moodle_url": "https://moodle.univ-lille.fr/course/view.php?id=28230&sectionid=348486",
   "google_sheet_url": "https://docs.google.com/spreadsheets/d/1OiFbOQRlOZBHyy7uIvDQYC797M0kDNb29iw6YIEuSlA/export?format=xlsx",
   "exam_date": "2026-12-08",
-  "days_to_exam": 44,
+  "days_to_exam": 43,
   "stats": {
     "total_livrets_count": 0,
     "total_livrets_done": 0,

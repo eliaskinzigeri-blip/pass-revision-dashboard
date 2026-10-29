@@ -1,23 +1,23 @@
 {
-  "generated_at": "28/10/2026 21:00:08",
-  "timestamp": 1793217608802,
+  "generated_at": "29/10/2026 21:00:40",
+  "timestamp": 1793304040393,
   "moodle_url": "https://moodle.univ-lille.fr/course/view.php?id=28230&sectionid=348486",
   "google_sheet_url": "https://docs.google.com/spreadsheets/d/1OiFbOQRlOZBHyy7uIvDQYC797M0kDNb29iw6YIEuSlA/export?format=xlsx",
   "exam_date": "2026-12-08",
-  "days_to_exam": 40,
+  "days_to_exam": 39,
   "stats": {
-    "total_livrets_count": 0,
-    "total_livrets_done": 0,
-    "total_acquis": 0,
-    "total_revise_non_acquis": 0,
-    "total_livrets_remaining": 0,
+    "total_livrets_count": 133,
+    "total_livrets_done": 126,
+    "total_acquis": 119,
+    "total_revise_non_acquis": 7,
+    "total_livrets_remaining": 7,
     "total_colles_count": 8,
     "total_cb_count": 8,
-    "total_qcm_sessions": 0,
+    "total_qcm_sessions": 69,
     "average_colles_score": "16.99",
     "average_official_evals": "16.99",
     "average_cb_score": "12.63",
-    "average_qcm_score": "0.00",
+    "average_qcm_score": "17.75",
     "active_errors_count": 44
   },
   "evaluations": [
@@ -214,84 +214,3134 @@
       "icon": "fa-award"
     }
   ],
-  "qcmSessions": [],
+  "qcmSessions": [
+    {
+      "id": 1,
+      "attempt": 1,
+      "title": "Généré Biophysique",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 10,
+      "date": "29/10/2026 18:47",
+      "note": "16.40 / 20",
+      "noteNum": 16.4
+    },
+    {
+      "id": 2,
+      "attempt": 1,
+      "title": "Session livret 8 : Thorax 3",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "29/10/2026 15:00",
+      "note": "17.87 / 20",
+      "noteNum": 17.87
+    },
+    {
+      "id": 3,
+      "attempt": 1,
+      "title": "Généré Pharmacologie",
+      "matiere": "Pharmacologie",
+      "questionsCount": 20,
+      "date": "29/10/2026 14:33",
+      "note": "18.60 / 20",
+      "noteNum": 18.6
+    },
+    {
+      "id": 4,
+      "attempt": 1,
+      "title": "Généré Pharmacologie",
+      "matiere": "Pharmacologie",
+      "questionsCount": 10,
+      "date": "29/10/2026 14:05",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 5,
+      "attempt": 1,
+      "title": "Généré Chimie",
+      "matiere": "Chimie",
+      "questionsCount": 22,
+      "date": "29/10/2026 10:08",
+      "note": "18.55 / 20",
+      "noteNum": 18.55
+    },
+    {
+      "id": 6,
+      "attempt": 2,
+      "title": "Session livret 16 : Trafic intracellulaire 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 6,
+      "date": "29/10/2026 09:06",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 7,
+      "attempt": 2,
+      "title": "Session livret 11 : Trafic intracellulaire 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 4,
+      "date": "29/10/2026 08:51",
+      "note": "17.00 / 20",
+      "noteNum": 17.0
+    },
+    {
+      "id": 8,
+      "attempt": 4,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 6,
+      "date": "29/10/2026 08:43",
+      "note": "18.67 / 20",
+      "noteNum": 18.67
+    },
+    {
+      "id": 9,
+      "attempt": 2,
+      "title": "Session livret 13 : Membranes 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "28/10/2026 14:34",
+      "note": "16.80 / 20",
+      "noteNum": 16.8
+    },
+    {
+      "id": 10,
+      "attempt": 2,
+      "title": "Session livret 8 : Membranes 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "28/10/2026 14:27",
+      "note": "18.18 / 20",
+      "noteNum": 18.18
+    },
+    {
+      "id": 11,
+      "attempt": 2,
+      "title": "Session livret 10 : Tissus épithéliaux 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 10,
+      "date": "28/10/2026 14:15",
+      "note": "19.60 / 20",
+      "noteNum": 19.6
+    },
+    {
+      "id": 12,
+      "attempt": 2,
+      "title": "Session livret 5 : Thorax 2",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "28/10/2026 09:29",
+      "note": "19.47 / 20",
+      "noteNum": 19.47
+    },
+    {
+      "id": 13,
+      "attempt": 1,
+      "title": "Session livret 4 : Appareil digestif",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "28/10/2026 08:59",
+      "note": "18.93 / 20",
+      "noteNum": 18.93
+    },
+    {
+      "id": 14,
+      "attempt": 1,
+      "title": "Session annales livret 08 : Réactions acido-basiqu...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 5,
+      "date": "27/10/2026 16:13",
+      "note": "14.40 / 20",
+      "noteNum": 14.4
+    },
+    {
+      "id": 15,
+      "attempt": 1,
+      "title": "Session livret 08 (1) : Réactions acido-basiques -...",
+      "matiere": "Biophysique",
+      "questionsCount": 3,
+      "date": "27/10/2026 15:47",
+      "note": "13.33 / 20",
+      "noteNum": 13.33
+    },
+    {
+      "id": 16,
+      "attempt": 3,
+      "title": "Session livret n°1 : Histoire des médicaments",
+      "matiere": "Pharmacologie",
+      "questionsCount": 15,
+      "date": "27/10/2026 14:25",
+      "note": "18.67 / 20",
+      "noteNum": 18.67
+    },
+    {
+      "id": 17,
+      "attempt": 1,
+      "title": "Session livret 9 : Tissus épithéliaux 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 7,
+      "date": "27/10/2026 13:59",
+      "note": "15.43 / 20",
+      "noteNum": 15.43
+    },
+    {
+      "id": 18,
+      "attempt": 2,
+      "title": "Session livret 7 : Tissus épithéliaux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "27/10/2026 13:50",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 19,
+      "attempt": 1,
+      "title": "Session livret 14 : Cytosquelette 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 3,
+      "date": "27/10/2026 13:41",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 20,
+      "attempt": 2,
+      "title": "Session livret 3 : Thorax 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "25/10/2026 13:02",
+      "note": "19.47 / 20",
+      "noteNum": 19.47
+    },
+    {
+      "id": 21,
+      "attempt": 4,
+      "title": "Session livret 1 : Généralités 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "25/10/2026 12:50",
+      "note": "18.93 / 20",
+      "noteNum": 18.93
+    },
+    {
+      "id": 22,
+      "attempt": 3,
+      "title": "Session livret 4 : Cytosquelette 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "25/10/2026 12:08",
+      "note": "19.00 / 20",
+      "noteNum": 19.0
+    },
+    {
+      "id": 23,
+      "attempt": 3,
+      "title": "Session livret 3 : Méthodes en histologie 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 9,
+      "date": "25/10/2026 11:51",
+      "note": "19.11 / 20",
+      "noteNum": 19.11
+    },
+    {
+      "id": 24,
+      "attempt": 2,
+      "title": "Session 2 livret 2 : Méthodes en biologie cellulai...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 8,
+      "date": "25/10/2026 11:40",
+      "note": "17.00 / 20",
+      "noteNum": 17.0
+    },
+    {
+      "id": 25,
+      "attempt": 4,
+      "title": "Session livret 1 : Introduction à la biologie cell...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 15,
+      "date": "25/10/2026 10:39",
+      "note": "19.20 / 20",
+      "noteNum": 19.2
+    },
+    {
+      "id": 26,
+      "attempt": 1,
+      "title": "Session livret 18 : Tissu squelettique",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 13,
+      "date": "22/10/2026 10:09",
+      "note": "18.15 / 20",
+      "noteNum": 18.15
+    },
+    {
+      "id": 27,
+      "attempt": 2,
+      "title": "Session livret 17 : Tissu nerveux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "22/10/2026 09:51",
+      "note": "19.64 / 20",
+      "noteNum": 19.64
+    },
+    {
+      "id": 28,
+      "attempt": 2,
+      "title": "Session livret 15 : Tissu conjonctif",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "22/10/2026 09:35",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 29,
+      "attempt": 1,
+      "title": "Session etude du soir 1",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 12,
+      "date": "21/10/2026 16:40",
+      "note": "18.33 / 20",
+      "noteNum": 18.33
+    },
+    {
+      "id": 30,
+      "attempt": 1,
+      "title": "Session livret 6 : Appareil cardiovasculaire 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "21/10/2026 15:49",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 31,
+      "attempt": 1,
+      "title": "Session livret 12 : Méthodes en histologie 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 17,
+      "date": "21/10/2026 15:27",
+      "note": "17.41 / 20",
+      "noteNum": 17.41
+    },
+    {
+      "id": 32,
+      "attempt": 1,
+      "title": "Session livret 10 : Tissus épithéliaux 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 10,
+      "date": "21/10/2026 14:58",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 33,
+      "attempt": 2,
+      "title": "Session livret 6 : Cytosquelette 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 14,
+      "date": "21/10/2026 14:40",
+      "note": "18.29 / 20",
+      "noteNum": 18.29
+    },
+    {
+      "id": 34,
+      "attempt": 1,
+      "title": "Session livret 6 : Sémantique (1)",
+      "matiere": "SSH",
+      "questionsCount": 11,
+      "date": "21/10/2026 12:10",
+      "note": "15.27 / 20",
+      "noteNum": 15.27
+    },
+    {
+      "id": 35,
+      "attempt": 1,
+      "title": "Session livret 16 : Trafic intracellulaire 3",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 6,
+      "date": "20/10/2026 16:22",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 36,
+      "attempt": 1,
+      "title": "Session livret 11 : Trafic intracellulaire 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 4,
+      "date": "20/10/2026 16:08",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 37,
+      "attempt": 3,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 6,
+      "date": "20/10/2026 15:51",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 38,
+      "attempt": 1,
+      "title": "Session livret 03 - (2) : L'eau et les solutions -...",
+      "matiere": "Biophysique",
+      "questionsCount": 25,
+      "date": "20/10/2026 15:23",
+      "note": "15.20 / 20",
+      "noteNum": 15.2
+    },
+    {
+      "id": 39,
+      "attempt": 1,
+      "title": "Session livret 02 - (2) : L'eau et les solutions -...",
+      "matiere": "Biophysique",
+      "questionsCount": 10,
+      "date": "20/10/2026 14:18",
+      "note": "12.00 / 20",
+      "noteNum": 12.0
+    },
+    {
+      "id": 40,
+      "attempt": 1,
+      "title": "Session livret 01 - (2) : L'eau et les solutions -...",
+      "matiere": "Biophysique",
+      "questionsCount": 14,
+      "date": "20/10/2026 13:30",
+      "note": "12.86 / 20",
+      "noteNum": 12.86
+    },
+    {
+      "id": 41,
+      "attempt": 1,
+      "title": "Session livret n°3 : Pharmacodynamie (2)",
+      "matiere": "Pharmacologie",
+      "questionsCount": 7,
+      "date": "20/10/2026 12:13",
+      "note": "17.71 / 20",
+      "noteNum": 17.71
+    },
+    {
+      "id": 42,
+      "attempt": 1,
+      "title": "Session livret n°2 : Pharmacodynamie (1)",
+      "matiere": "Pharmacologie",
+      "questionsCount": 19,
+      "date": "20/10/2026 11:47",
+      "note": "15.37 / 20",
+      "noteNum": 15.37
+    },
+    {
+      "id": 43,
+      "attempt": 2,
+      "title": "Session livret n°1 : Histoire des médicaments",
+      "matiere": "Pharmacologie",
+      "questionsCount": 15,
+      "date": "20/10/2026 11:07",
+      "note": "15.20 / 20",
+      "noteNum": 15.2
+    },
+    {
+      "id": 44,
+      "attempt": 1,
+      "title": "Session livret 5 : Thorax 2",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "19/10/2026 18:16",
+      "note": "19.20 / 20",
+      "noteNum": 19.2
+    },
+    {
+      "id": 45,
+      "attempt": 1,
+      "title": "Session livret 17 : Tissu nerveux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "19/10/2026 17:39",
+      "note": "16.73 / 20",
+      "noteNum": 16.73
+    },
+    {
+      "id": 46,
+      "attempt": 1,
+      "title": "Session livret 15 : Tissu conjonctif",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 15,
+      "date": "19/10/2026 17:21",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 47,
+      "attempt": 1,
+      "title": "Session livret 5 : Orbitales moléculaires",
+      "matiere": "Chimie",
+      "questionsCount": 11,
+      "date": "19/10/2026 12:36",
+      "note": "17.82 / 20",
+      "noteNum": 17.82
+    },
+    {
+      "id": 48,
+      "attempt": 1,
+      "title": "Session livret 4 : Liaisons chimiques et méthode V...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 12,
+      "date": "19/10/2026 12:09",
+      "note": "19.00 / 20",
+      "noteNum": 19.0
+    },
+    {
+      "id": 49,
+      "attempt": 2,
+      "title": "Session livret 3 : Théorie de Lewis, liaisons chim...",
+      "matiere": "Chimie",
+      "questionsCount": 14,
+      "date": "19/10/2026 11:51",
+      "note": "18.57 / 20",
+      "noteNum": 18.57
+    },
+    {
+      "id": 50,
+      "attempt": 2,
+      "title": "Session livret 2 : Classification périodique",
+      "matiere": "Chimie",
+      "questionsCount": 16,
+      "date": "19/10/2026 11:30",
+      "note": "18.50 / 20",
+      "noteNum": 18.5
+    },
+    {
+      "id": 51,
+      "attempt": 2,
+      "title": "Session livret 1 : Atome, théorie quantique",
+      "matiere": "Chimie",
+      "questionsCount": 18,
+      "date": "19/10/2026 11:10",
+      "note": "18.89 / 20",
+      "noteNum": 18.89
+    },
+    {
+      "id": 52,
+      "attempt": 1,
+      "title": "Session livret 13 : Membranes 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "19/10/2026 10:38",
+      "note": "17.60 / 20",
+      "noteNum": 17.6
+    },
+    {
+      "id": 53,
+      "attempt": 1,
+      "title": "Session livret 8 : Membranes 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 11,
+      "date": "18/10/2026 16:53",
+      "note": "14.91 / 20",
+      "noteNum": 14.91
+    },
+    {
+      "id": 54,
+      "attempt": 1,
+      "title": "Session livret 6 : Cytosquelette 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 14,
+      "date": "18/10/2026 16:26",
+      "note": "17.71 / 20",
+      "noteNum": 17.71
+    },
+    {
+      "id": 55,
+      "attempt": 1,
+      "title": "Session 2 livret 2 : Méthodes en biologie cellulai...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 8,
+      "date": "05/10/2026 06:58",
+      "note": "16.50 / 20",
+      "noteNum": 16.5
+    },
+    {
+      "id": 56,
+      "attempt": 1,
+      "title": "Session livret 7 : Tissus épithéliaux 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "04/10/2026 08:23",
+      "note": "18.40 / 20",
+      "noteNum": 18.4
+    },
+    {
+      "id": 57,
+      "attempt": 3,
+      "title": "Session livret 1 : Généralités 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "26/09/2026 21:21",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 58,
+      "attempt": 1,
+      "title": "Session livret 3 : Thorax 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "26/09/2026 19:06",
+      "note": "18.13 / 20",
+      "noteNum": 18.13
+    },
+    {
+      "id": 59,
+      "attempt": 1,
+      "title": "Session annales livret 6 : Cytosquelette 2",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 4,
+      "date": "23/09/2026 17:25",
+      "note": "19.00 / 20",
+      "noteNum": 19.0
+    },
+    {
+      "id": 60,
+      "attempt": 2,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "23/09/2026 17:21",
+      "note": "20.00 / 20",
+      "noteNum": 20.0
+    },
+    {
+      "id": 61,
+      "attempt": 2,
+      "title": "Session livret 4 : Cytosquelette 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "23/09/2026 17:10",
+      "note": "17.33 / 20",
+      "noteNum": 17.33
+    },
+    {
+      "id": 62,
+      "attempt": 2,
+      "title": "Session livret 3 : Méthodes en histologie 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 9,
+      "date": "23/09/2026 16:51",
+      "note": "19.56 / 20",
+      "noteNum": 19.56
+    },
+    {
+      "id": 63,
+      "attempt": 3,
+      "title": "Session 1 livret 2 : Méthodes en biologie cellulai...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 12,
+      "date": "23/09/2026 16:38",
+      "note": "19.67 / 20",
+      "noteNum": 19.67
+    },
+    {
+      "id": 64,
+      "attempt": 3,
+      "title": "Session livret 1 : Introduction à la biologie cell...",
+      "matiere": "Séance / Entraînement",
+      "questionsCount": 15,
+      "date": "23/09/2026 16:22",
+      "note": "19.47 / 20",
+      "noteNum": 19.47
+    },
+    {
+      "id": 65,
+      "attempt": 1,
+      "title": "Session livret 5 : Trafic intracellulaire 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 5,
+      "date": "22/09/2026 16:15",
+      "note": "16.80 / 20",
+      "noteNum": 16.8
+    },
+    {
+      "id": 66,
+      "attempt": 1,
+      "title": "Session livret 4 : Cytosquelette 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 12,
+      "date": "21/09/2026 19:01",
+      "note": "18.00 / 20",
+      "noteNum": 18.0
+    },
+    {
+      "id": 67,
+      "attempt": 1,
+      "title": "Session livret 3 : Méthodes en histologie 1",
+      "matiere": "Biologie cellulaire / Histologie",
+      "questionsCount": 9,
+      "date": "21/09/2026 18:39",
+      "note": "14.67 / 20",
+      "noteNum": 14.67
+    },
+    {
+      "id": 68,
+      "attempt": 2,
+      "title": "Session livret 2 : Généralités 2",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "20/09/2026 10:06",
+      "note": "19.47 / 20",
+      "noteNum": 19.47
+    },
+    {
+      "id": 69,
+      "attempt": 2,
+      "title": "Session livret 1 : Généralités 1",
+      "matiere": "Anatomie générale",
+      "questionsCount": 15,
+      "date": "20/09/2026 09:53",
+      "note": "19.20 / 20",
+      "noteNum": 19.2
+    }
+  ],
   "syllabus": [
     {
       "key": "Bio-cell",
       "name": "Biologie cellulaire / Histologie",
       "icon": "fa-microscope",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 17,3 (prop inexacte->0/1)",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "13/10/2026",
+          "lastCellSummary": "13/10/2026",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 19,5",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 19,5",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026",
+          "lastCellSummary": "23/09/2026 • 19,7",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026",
+          "lastCellSummary": "22/10/2026",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026",
+          "lastCellSummary": "22/10/2026",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "08/10/2026",
+          "lastCellSummary": "08/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     },
     {
       "key": "Chimie",
       "name": "Chimie Générale & Organique",
       "icon": "fa-flask",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:25 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:41 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "28/10/2026 14:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 10:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026 15:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:35 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 10:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:50 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "27/10/2026 13:59 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/10/2026 14:15 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "29/10/2026 09:06 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     },
     {
       "key": "Bio-Physique",
       "name": "Biophysique",
       "icon": "fa-wave-square",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "25/10/2026 12:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:25 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:41 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "15/09/2026",
+          "lastCellSummary": "15/09/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "28/10/2026 14:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 10:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "15/09/2026",
+          "lastCellSummary": "15/09/2026 • J7",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026 15:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "15/09/2026",
+          "lastCellSummary": "15/09/2026",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:35 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 10:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:50 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/10/2026 14:15 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "29/10/2026 09:06 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     },
     {
       "key": "Anat",
       "name": "Anatomie générale",
       "icon": "fa-bone",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/09/2026",
+          "lastCellSummary": "28/09/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026",
+          "lastCellSummary": "20/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:41 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "03/10/2026",
+          "lastCellSummary": "03/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "28/10/2026 14:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 10:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "18/20",
+          "lastCellSummary": "26sept • 18/20",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026 15:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/09/2026",
+          "lastCellSummary": "20/09/2026",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:35 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 10:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "27/10/2026 13:59 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/10/2026 14:15 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026",
+          "lastCellSummary": "19/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "29/10/2026 09:06 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     },
     {
       "key": "Pharmaco",
       "name": "Pharmacologie",
       "icon": "fa-capsules",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026",
+          "lastCellSummary": "21/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:41 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "28/10/2026 14:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 10:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026 15:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "12/10/2026",
+          "lastCellSummary": "12/10/2026",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:35 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 10:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:50 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "27/10/2026 13:59 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/10/2026 14:15 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "29/10/2026 09:06 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     },
     {
       "key": "SSH",
       "name": "Santé, Société, Humanité (SSH)",
       "icon": "fa-book-open",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "25/10/2026 12:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:41 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "09/09/2026",
+          "lastCellSummary": "09/09/2026 • 16,9/20",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "28/10/2026 14:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 10:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/09/2026",
+          "lastCellSummary": "28/09/2026 • Science et jugemt",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026 15:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "12/09/2026",
+          "lastCellSummary": "12/09/2026",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:35 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 10:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:50 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "27/10/2026 13:59 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/10/2026 14:15 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "11/10/2026",
+          "lastCellSummary": "11/10/2026",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "29/10/2026 09:06 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     },
     {
       "key": "Bio-Chimie",
       "name": "Biochimie",
       "icon": "fa-dna",
-      "totalLivrets": 0,
-      "doneCount": 0,
-      "remainingCount": 0,
-      "progressPercent": 0,
-      "remainingPercent": 100,
-      "livretsList": []
+      "totalLivrets": 19,
+      "doneCount": 18,
+      "remainingCount": 1,
+      "progressPercent": 95,
+      "remainingPercent": 5,
+      "livretsList": [
+        {
+          "number": 4,
+          "label": "Livret 4 : Cytosquelette 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "25/10/2026 12:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 18.45,
+            "attempts": 5,
+            "date": "25/10/2026 12:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.45/20)"
+        },
+        {
+          "number": 6,
+          "label": "Livret 6 : Cytosquelette 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:25 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.00 / 20",
+            "noteNum": 19.0,
+            "avgNote": 17.73,
+            "attempts": 5,
+            "date": "23/09/2026 17:25"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.73/20)"
+        },
+        {
+          "number": 14,
+          "label": "Livret 14 : Cytoquelette 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:41 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.33 / 20",
+            "noteNum": 17.33,
+            "avgNote": 17.33,
+            "attempts": 1,
+            "date": "27/10/2026 13:41"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.33/20)"
+        },
+        {
+          "number": 1,
+          "label": "Livret 1 : Introduction à la biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "26/09/2026 21:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.29,
+            "attempts": 21,
+            "date": "26/09/2026 21:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.29/20)"
+        },
+        {
+          "number": 8,
+          "label": "Livret 8 : Membranes",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "orange",
+          "squareBg": "#ea580c",
+          "lastDate": "28/10/2026 14:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.18 / 20",
+            "noteNum": 18.18,
+            "avgNote": 16.99,
+            "attempts": 3,
+            "date": "28/10/2026 14:27"
+          },
+          "statusLabel": "Acquis (16.99/20)"
+        },
+        {
+          "number": 13,
+          "label": "Livret 13 : Membranes 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "19/10/2026 10:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.60 / 20",
+            "noteNum": 17.6,
+            "avgNote": 17.2,
+            "attempts": 2,
+            "date": "19/10/2026 10:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.2/20)"
+        },
+        {
+          "number": 3,
+          "label": "Livret 3 : Méthodes en histologie 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 16:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.56 / 20",
+            "noteNum": 19.56,
+            "avgNote": 18.25,
+            "attempts": 6,
+            "date": "23/09/2026 16:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.25/20)"
+        },
+        {
+          "number": 12,
+          "label": "Livret 12 : Méthodes en histologie 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "21/10/2026 15:27 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "17.41 / 20",
+            "noteNum": 17.41,
+            "avgNote": 17.41,
+            "attempts": 1,
+            "date": "21/10/2026 15:27"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.41/20)"
+        },
+        {
+          "number": 2,
+          "label": "Livret 2 : Méthodes en biologie cellulaire",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 16:38 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.67 / 20",
+            "noteNum": 19.67,
+            "avgNote": 18.23,
+            "attempts": 5,
+            "date": "23/09/2026 16:38"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.23/20)"
+        },
+        {
+          "number": 15,
+          "label": "Livret 15 : Tissu conjonctif",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:35 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.40 / 20",
+            "noteNum": 18.4,
+            "avgNote": 18.4,
+            "attempts": 2,
+            "date": "22/10/2026 09:35"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.4/20)"
+        },
+        {
+          "number": 17,
+          "label": "Livret 17 : Tissu nerveux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 09:51 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.64 / 20",
+            "noteNum": 19.64,
+            "avgNote": 18.19,
+            "attempts": 2,
+            "date": "22/10/2026 09:51"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.19/20)"
+        },
+        {
+          "number": 19,
+          "label": "Livret 19 : Tissu nerveux 2",
+          "isRevised": false,
+          "isAcquis": false,
+          "squareColor": "gray",
+          "squareBg": "#cbd5e1",
+          "lastDate": "Non encore révisé",
+          "lastCellSummary": "Non révisé",
+          "bestQcm": null,
+          "statusLabel": "Non encore révisé"
+        },
+        {
+          "number": 18,
+          "label": "Livret 18 : Tissu squelettique",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "22/10/2026 10:09 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.15 / 20",
+            "noteNum": 18.15,
+            "avgNote": 18.15,
+            "attempts": 1,
+            "date": "22/10/2026 10:09"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.15/20)"
+        },
+        {
+          "number": 7,
+          "label": "Livret 7 : Tissus épithéliaux 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "27/10/2026 13:50 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 19.2,
+            "attempts": 2,
+            "date": "27/10/2026 13:50"
+          },
+          "statusLabel": "Acquis & Maîtrisé (19.2/20)"
+        },
+        {
+          "number": 9,
+          "label": "Livret 9 : Tissus épitheliaux 2",
+          "isRevised": true,
+          "isAcquis": false,
+          "squareColor": "orange",
+          "squareBg": "#d97706",
+          "lastDate": "27/10/2026 13:59 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "15.43 / 20",
+            "noteNum": 15.43,
+            "avgNote": 15.43,
+            "attempts": 1,
+            "date": "27/10/2026 13:59"
+          },
+          "statusLabel": "Révisé - Non acquis (< 16 : 15.43/20)"
+        },
+        {
+          "number": 10,
+          "label": "Livret 10 : Tissus épitheliaux 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "28/10/2026 14:15 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "19.60 / 20",
+            "noteNum": 19.6,
+            "avgNote": 18.8,
+            "attempts": 2,
+            "date": "28/10/2026 14:15"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.8/20)"
+        },
+        {
+          "number": 5,
+          "label": "Livret 5 :Trafic intracellulaire 1",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "23/09/2026 17:21 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "20.00 / 20",
+            "noteNum": 20.0,
+            "avgNote": 18.47,
+            "attempts": 7,
+            "date": "23/09/2026 17:21"
+          },
+          "statusLabel": "Acquis & Maîtrisé (18.47/20)"
+        },
+        {
+          "number": 11,
+          "label": "Livret 11 : Trafic intracellulaire 2",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "20/10/2026 16:08 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.5,
+            "attempts": 2,
+            "date": "20/10/2026 16:08"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.5/20)"
+        },
+        {
+          "number": 16,
+          "label": "Livret 16 : Trafic intracellulaire 3",
+          "isRevised": true,
+          "isAcquis": true,
+          "squareColor": "green",
+          "squareBg": "#15803d",
+          "lastDate": "29/10/2026 09:06 (QCM)",
+          "lastCellSummary": "Révisé via QCM",
+          "bestQcm": {
+            "note": "18.00 / 20",
+            "noteNum": 18.0,
+            "avgNote": 17.66,
+            "attempts": 2,
+            "date": "29/10/2026 09:06"
+          },
+          "statusLabel": "Acquis & Maîtrisé (17.66/20)"
+        }
+      ]
     }
   ],
   "errorsRaw": [

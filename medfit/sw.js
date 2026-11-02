@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medfit-pass-netfirst-v8';
+const CACHE_NAME = 'medfit-pass-video-v9';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();

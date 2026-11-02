@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medfit-pass-offline-v5';
+const CACHE_NAME = 'medfit-pass-offline-v6';
 
 // Lors de l'installation, on met en cache la page principale et les ressources critiques
 self.addEventListener('install', (event) => {

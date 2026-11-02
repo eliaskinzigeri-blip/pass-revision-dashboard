@@ -1,21 +1,9 @@
-const CACHE_NAME = 'medfit-pass-offline-v6';
+const CACHE_NAME = 'medfit-pass-netfirst-v8';
 
-// Lors de l'installation, on met en cache la page principale et les ressources critiques
 self.addEventListener('install', (event) => {
   self.skipWaiting();
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll([
-        './',
-        './index.html',
-        './manifest.json',
-        './icon.svg',
-      ]);
-    })
-  );
 });
 
-// Nettoyage des anciens caches à l'activation
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
@@ -27,36 +15,40 @@ self.addEventListener('activate', (event) => {
         })
       )
     ).then(() => self.clients.claim())
+     .then(() => self.clients.matchAll({ type: 'window' }))
+     .then((clients) => {
+       clients.forEach((client) => {
+         if (client.url && 'navigate' in client) {
+           client.navigate(client.url).catch(() => {});
+         }
+       });
+     })
   );
 });
 
-// Stratégie Cache-First avec mise en cache automatique de tous les bundles JS/CSS/Fonts
-// Permet à l'iPhone et à l'iPad de fonctionner à 100% quand le Mac/PC est éteint !
+// Stratégie Network-First : toujours à jour quand connecté, 100% fonctionnel en cache quand hors-ligne / PC éteint
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      const fetchPromise = fetch(event.request)
-        .then((networkResponse) => {
-          if (
-            networkResponse &&
-            networkResponse.status === 200 &&
-            (networkResponse.type === 'basic' || networkResponse.type === 'cors')
-          ) {
-            const responseClone = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, responseClone);
-            });
-          }
-          return networkResponse;
-        })
-        .catch(() => {
-          // Si le PC est éteint ou hors-ligne, on renvoie le cache ou index.html
-          return cachedResponse || caches.match('/index.html');
+    fetch(event.request, { cache: 'no-cache' })
+      .then((networkResponse) => {
+        if (
+          networkResponse &&
+          networkResponse.status === 200 &&
+          (networkResponse.type === 'basic' || networkResponse.type === 'cors')
+        ) {
+          const responseClone = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseClone);
+          });
+        }
+        return networkResponse;
+      })
+      .catch(() => {
+        return caches.match(event.request).then((cachedResponse) => {
+          return cachedResponse || caches.match('./index.html');
         });
-
-      return cachedResponse || fetchPromise;
-    })
+      })
   );
 });

@@ -1,0 +1,19 @@
+{
+  "name": "MedFit Calisthenics — PASS Edition",
+  "short_name": "MedFit PASS",
+  "description": "WebApp d'Entretien Physique & Postural Spécial Études de Santé (PASS) — Fonctionne 100% Hors-Ligne sur iPhone & iPad.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A0D0C",
+  "theme_color": "#091E16",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

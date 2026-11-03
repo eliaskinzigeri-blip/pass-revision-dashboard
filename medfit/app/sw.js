@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medfit-pass-video-v9';
+const CACHE_NAME = 'medfit-pass-v10';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
